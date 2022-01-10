@@ -1,8 +1,6 @@
 package testing;
 import static org.junit.Assert.*;
 
-import java.util.List;
-
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -45,16 +43,16 @@ public class ChefVillageTest {
 
 	@Test
 	public void testGetNomChef() {
-		assertEquals(kazekage.getNomChef(), "Hokage");
+		assertEquals(kazekage.getNomChef(), "kazekage");
 	}
-	public void doNotContains(List<Village> listVillage, Village village) {
-		assertEquals(false, (listVillage).contains(village));
-	}
+	
 	@Test
 	public void testAttaquerVillage() {
+		suna.declarerGuerre(oto);
 		kazekage.attaquerVillage(oto);
-		doNotContains(kazekage.getListVillageConquis(), suna);
-
+		System.out.println(kazekage.getListVillageConquis());
+		assertTrue(kazekage.getListVillageConquis().contains(oto));
+		
 	}
 
 

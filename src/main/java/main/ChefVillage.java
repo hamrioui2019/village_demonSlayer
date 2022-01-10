@@ -32,10 +32,10 @@ public class ChefVillage
     
     public void attaquerVillage(Village cible)
     {
-   	 if (!(this.village.getEnnemis().contains(cible)) || (this.village.equals(cible)))
-   		 return;
-   	 this.listVillageConquis.add(cible);
-   	 this.village.retirerEnnemi(cible);
+   	 if ((this.village.getEnnemis().contains(cible)) && !(this.village.equals(cible))) {
+	   	 this.listVillageConquis.add(cible);
+	   	 this.village.retirerEnnemi(cible);
+    }
     }
     
     

@@ -9,13 +9,10 @@ import org.junit.Test;
 import java.util.List;
 
 
-import main.ChefVillage;
-import main.Ninja;
 import main.Village;
 
 public class VillageTest {
 	private Village konoha, suna, oto;
-	private ChefVillage kage;
 
 //    /**
 //     * Constructeur de la classe-test VillageTest
@@ -36,7 +33,6 @@ public class VillageTest {
 		konoha.setNbrHabitant(5000);
 		konoha.setNbrMaison(2000);
 		konoha.setNomVillage("konoha");
-		kage = new ChefVillage("Hokage", konoha);
 
 		oto = new Village();
 		oto.setNbrHabitant(200);
@@ -153,11 +149,6 @@ public class VillageTest {
 		doNotContains(konoha.getEnnemis(), oto);
 	}
 
-	
 
-	@Test
-	public void testDefendreVillage() {
-		Ninja naruto = new Ninja("Naruto", konoha);
-		assertTrue(naruto.defendreVillage());
-	}
+
 }

@@ -1,5 +1,6 @@
 package testing;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -82,5 +83,15 @@ public class DemonSlayerTest
         toto.ajouterCoequipier(tata);
         assertEquals(true,toto.peutVaincreUnDemon() );
 
+    }
+    
+    @Test
+    public void testRedefinitionDemonSlayer()
+    {
+    	toto.setTypeDeSouffle("terre");
+    	toto.setNom("Tanjiro");
+    	toto.setCoequipier(tata);
+    	assertEquals(11, toto.getNbDeMouvements());
+    	assertEquals(tata.getNom(), toto.getCoequipier());
     }
 }

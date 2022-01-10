@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import damonSlayer.DemonSlayerSedentaire;
+
 /**
  * DÃ©crivez votre classe Village ici.
  *
@@ -17,6 +19,8 @@ public class Village
    private int nbrMaison;
    private List<Village> listAllies;
    private List<Village> listEnemies;
+//   Ajouter une liste de demonSlayerSedentaire pour nous permettre de récupérer leurs informations et les lier au village 
+   private List<DemonSlayerSedentaire> listDemonSlayerSedentaires;
     
     /**
      * Constructeur d'objets de classe Village
@@ -125,7 +129,11 @@ public class Village
     	this.listEnemies.remove(village);
     	
     }
-    
+
+
+	public List<DemonSlayerSedentaire> getListDemonSlayerSedentaires() {
+		return Collections.unmodifiableList(this.listDemonSlayerSedentaires);
+	}  
     
     
 }
