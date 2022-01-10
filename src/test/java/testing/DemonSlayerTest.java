@@ -12,8 +12,8 @@ public class DemonSlayerTest
 {
     private DemonSlayer toto;
     private Grade grade1;
-    
-    
+    private  DemonSlayer tata;
+    private Grade pillier; 
 
     /**
      * Constructeur de la classe-test DemonSlayerTest
@@ -34,6 +34,10 @@ public class DemonSlayerTest
         grade1 = new Grade("chef", 5);
         grade1.getIntitule();
         toto.setGrade(grade1);
+        tata = new DemonSlayer("tata", 6, "feu");
+        
+        pillier= new Grade("pillier",5);
+
     }
 
     /**
@@ -50,24 +54,19 @@ public class DemonSlayerTest
     @Test
     public void testGetNom()
     {
-        DemonSlayer Toto = new DemonSlayer("toto", 11, "eau");
-        assertEquals("toto", Toto.getNom());
+        assertEquals("toto", toto.getNom());
     }
 
     @Test
     public void testFaireEquipe()
     {
-        DemonSlayer toto = new DemonSlayer("toto", 11, "eau");
-        DemonSlayer tata = new DemonSlayer("tata", 6, "feu");
-        
+      
         assertEquals(true, toto.faireEquipe(tata));
     }
     
     @Test
     public void testAjouterDemonSlayerDansEquipe()
     {
-        DemonSlayer toto = new DemonSlayer("toto", 11, "eau");
-        Grade pillier = new Grade("pillier",5);
         pillier.ajouterDemonSlayerDansGrade(toto);
         assertEquals(true, pillier.estDansLeGrade(toto));
     }
@@ -75,9 +74,7 @@ public class DemonSlayerTest
     @Test
     public void testPeutVaincreUnDemon()
     {
-        DemonSlayer toto = new DemonSlayer("toto", 11, "eau");
-        DemonSlayer tata = new DemonSlayer("tata", 11, "feu");
-        Grade pillier = new Grade("pillier",5);
+        tata.setNbDeMouvements(11);
         pillier.ajouterDemonSlayerDansGrade(toto);
         pillier.ajouterDemonSlayerDansGrade(tata);
         toto.setGrade(pillier);

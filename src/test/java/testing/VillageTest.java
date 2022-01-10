@@ -14,8 +14,8 @@ import main.Ninja;
 import main.Village;
 
 public class VillageTest {
-	private Village Konoha, Suna, Oto;
-	private ChefVillage Kage;
+	private Village konoha, suna, oto;
+	private ChefVillage kage;
 
 //    /**
 //     * Constructeur de la classe-test VillageTest
@@ -32,24 +32,24 @@ public class VillageTest {
 	@Before
 	public void setUp() // throws java.lang.Exception
 	{
-		Konoha = new Village();
-		Konoha.setNbrHabitant(5000);
-		Konoha.setNbrMaison(2000);
-		Konoha.setNomVillage("Konoha");
-		Kage = new ChefVillage("Hokage", Konoha);
+		konoha = new Village();
+		konoha.setNbrHabitant(5000);
+		konoha.setNbrMaison(2000);
+		konoha.setNomVillage("konoha");
+		kage = new ChefVillage("Hokage", konoha);
 
-		Oto = new Village();
-		Oto.setNbrHabitant(200);
-		Oto.setNbrMaison(100);
-		Oto.setNomVillage("Oto");
+		oto = new Village();
+		oto.setNbrHabitant(200);
+		oto.setNbrMaison(100);
+		oto.setNomVillage("oto");
 
-		Suna = new Village();
-		Suna.setNbrHabitant(1000);
-		Suna.setNbrMaison(700);
-		Suna.setNomVillage("Suna");
+		suna = new Village();
+		suna.setNbrHabitant(1000);
+		suna.setNbrMaison(700);
+		suna.setNomVillage("suna");
 
-		Konoha.addAllianceVillage(Suna);
-		Konoha.declarerGuerre(Oto);
+		konoha.addAllianceVillage(suna);
+		konoha.declarerGuerre(oto);
 	}
 
 	@After
@@ -60,79 +60,64 @@ public class VillageTest {
 	@Test
 	public void testConstruire() {
 
-		assertEquals(2000, Konoha.getNbrMaison());
-		Konoha.construireMaison();
-		assertEquals(2001, Konoha.getNbrMaison());
+		assertEquals(2000, konoha.getNbrMaison());
+		konoha.construireMaison();
+		assertEquals(2001, konoha.getNbrMaison());
 	}
 
 	@Test
 	public void testDetruire() {
 
-		assertEquals(2000, Konoha.getNbrMaison());
-		Konoha.detruireMaison();
-		assertEquals(1999, Konoha.getNbrMaison());
+		assertEquals(2000, konoha.getNbrMaison());
+		konoha.detruireMaison();
+		assertEquals(1999, konoha.getNbrMaison());
 	}
 
-	@Test
-	public void testTuerTraitre() {
 
-		Kage.tuerTraitre();
-		assertEquals(4999, Konoha.getNbrHabitant());
-	}
 
 	@Test
 	public void testGetNomVillage() {
-		assertEquals(Konoha.getNomVillage(), "Konoha");
+		assertEquals(konoha.getNomVillage(), "konoha");
 
 	}
 
 	@Test
 	public void testGetNbrHabitants() {
-		assertEquals(Konoha.getNbrHabitant(), 5000);
+		assertEquals(konoha.getNbrHabitant(), 5000);
 
 	}
 
 	@Test
 	public void testGetNbrMaison() {
-		assertEquals(Konoha.getNbrMaison(), 2000);
+		assertEquals(konoha.getNbrMaison(), 2000);
 
 	}
 
 	@Test
 	public void testSetNomVillage() {
-		Konoha.setNomVillage("Feu");
-		assertEquals(Konoha.getNomVillage(), "Feu");
+		konoha.setNomVillage("Feu");
+		assertEquals(konoha.getNomVillage(), "Feu");
 	}
 
 	@Test
 	public void testSetNbrHabitant() {
-		Konoha.setNbrHabitant(6000);
-		assertEquals(Konoha.getNbrHabitant(), 6000);
+		konoha.setNbrHabitant(6000);
+		assertEquals(konoha.getNbrHabitant(), 6000);
 	}
 
 	@Test
 	public void testSetNbrMaison() {
-		Konoha.setNbrMaison(2500);
-		assertEquals(Konoha.getNbrMaison(), 2500);
+		konoha.setNbrMaison(2500);
+		assertEquals(konoha.getNbrMaison(), 2500);
 	}
 
-	@Test
-	public void testSetNomChef() {
-		Kage.setNomChef("Tsunade");
-		assertEquals(Kage.getNomChef(), "Tsunade");
-	}
-
-	@Test
-	public void testGetNomChef() {
-		assertEquals(Kage.getNomChef(), "Hokage");
-	}
 
 	@Test
 	public void testAlliance() {
-		Konoha.addAllianceVillage(Suna);
-		containsIn(Konoha.getAllies(), Suna);
-		Konoha.addAllianceVillage(Oto);
-		containsIn(Konoha.getAllies(), Oto);
+		konoha.addAllianceVillage(suna);
+		containsIn(konoha.getAllies(), suna);
+		konoha.addAllianceVillage(oto);
+		containsIn(konoha.getAllies(), oto);
 
 	}
 
@@ -142,18 +127,18 @@ public class VillageTest {
 
 	@Test
 	public void testDeclarerGuerre() {
-		Konoha.declarerGuerre(Oto);
-		containsIn(Konoha.getEnnemis(), Oto);
-		Konoha.declarerGuerre(Suna);
-		containsIn(Konoha.getEnnemis(), Suna);
+		konoha.declarerGuerre(oto);
+		containsIn(konoha.getEnnemis(), oto);
+		konoha.declarerGuerre(suna);
+		containsIn(konoha.getEnnemis(), suna);
 	}
 
 	@Test
 	public void testRetirerAlliance() {
-		Konoha.retirerAlliance(Suna);
-		doNotContains(Konoha.getAllies(), Suna);
-		Konoha.retirerAlliance(Oto);
-		doNotContains(Konoha.getAllies(), Oto);
+		konoha.retirerAlliance(suna);
+		doNotContains(konoha.getAllies(), suna);
+		konoha.retirerAlliance(oto);
+		doNotContains(konoha.getAllies(), oto);
 	}
 
 	public void doNotContains(List<Village> listVillage, Village village) {
@@ -162,23 +147,17 @@ public class VillageTest {
 
 	@Test
 	public void testRetirerEnnemis() {
-		Konoha.retirerEnnemi(Suna);
-		doNotContains(Konoha.getEnnemis(), Suna);
-		Konoha.retirerEnnemi(Oto);
-		doNotContains(Konoha.getEnnemis(), Oto);
+		konoha.retirerEnnemi(suna);
+		doNotContains(konoha.getEnnemis(), suna);
+		konoha.retirerEnnemi(oto);
+		doNotContains(konoha.getEnnemis(), oto);
 	}
 
-	@Test
-	public void testAttaquerVillage() {
-		Kage.attaquerVillage(Suna);
-		doNotContains(Kage.getListVillageConquis(), Suna);
-		Kage.attaquerVillage(Oto);
-		containsIn(Kage.getListVillageConquis(), Oto);
-	}
+	
 
 	@Test
 	public void testDefendreVillage() {
-		Ninja naruto = new Ninja("Naruto", Konoha);
+		Ninja naruto = new Ninja("Naruto", konoha);
 		assertTrue(naruto.defendreVillage());
 	}
 }
