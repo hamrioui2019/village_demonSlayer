@@ -18,23 +18,23 @@ Feature: US005_AttaquerVillage
     Then il n apparait pas dans les villages conquis # null
 
   Scenario Outline: Attaquer un village # src/test/resources/dojo/US005_AttaquerVillage.feature:19
-    Given un village "<village>"
+    Given un village <village>
     When je l attaque
-    Then il apparait dans les villages conquis [<listeVillagesConquis>]
-    And il n apparait pas dans les villages ennemis [<listeVillagesEnnemis>]
+    Then il apparait dans les village conquis du <ChefVillage>
+    And il n apparait pas dans les villages ennemis <Village>
 
     Examples: 
 
   @tag
-  Scenario Outline: Attaquer un village                                 # src/test/resources/dojo/US005_AttaquerVillage.feature:27
-    Given un village "oto"                                              # null
-    When je l attaque                                                   # null
-    Then il apparait dans les villages conquis [<listeVillagesConquis>] # null
-    And il n apparait pas dans les villages ennemis [[]]                # null
+  Scenario Outline: Attaquer un village                        # src/test/resources/dojo/US005_AttaquerVillage.feature:27
+    Given un village <village>                                 # null
+    When je l attaque                                          # null
+    Then il apparait dans les village conquis du <ChefVillage> # null
+    And il n apparait pas dans les villages ennemis oto        # null
 
   @tag
-  Scenario Outline: Attaquer un village                                 # src/test/resources/dojo/US005_AttaquerVillage.feature:28
-    Given un village "suna"                                             # null
-    When je l attaque                                                   # null
-    Then il apparait dans les villages conquis [<listeVillagesConquis>] # null
-    And il n apparait pas dans les villages ennemis [[]]                # null
+  Scenario Outline: Attaquer un village                        # src/test/resources/dojo/US005_AttaquerVillage.feature:28
+    Given un village <village>                                 # null
+    When je l attaque                                          # null
+    Then il apparait dans les village conquis du <ChefVillage> # null
+    And il n apparait pas dans les villages ennemis suna       # null

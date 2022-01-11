@@ -108,7 +108,7 @@
               "status": "undefined"
             },
             "line": 20,
-            "name": "un village \"oto\"",
+            "name": "un village \u003cvillage\u003e",
             "match": {},
             "keyword": "Given "
           },
@@ -126,7 +126,7 @@
               "status": "undefined"
             },
             "line": 22,
-            "name": "il apparait dans les villages conquis [\u003clisteVillagesConquis\u003e]",
+            "name": "il apparait dans les village conquis du \u003cChefVillage\u003e",
             "match": {},
             "keyword": "Then "
           },
@@ -135,7 +135,7 @@
               "status": "undefined"
             },
             "line": 23,
-            "name": "il n apparait pas dans les villages ennemis [[]]",
+            "name": "il n apparait pas dans les villages ennemis oto",
             "match": {},
             "keyword": "And "
           }
@@ -159,7 +159,7 @@
               "status": "undefined"
             },
             "line": 20,
-            "name": "un village \"suna\"",
+            "name": "un village \u003cvillage\u003e",
             "match": {},
             "keyword": "Given "
           },
@@ -177,7 +177,7 @@
               "status": "undefined"
             },
             "line": 22,
-            "name": "il apparait dans les villages conquis [\u003clisteVillagesConquis\u003e]",
+            "name": "il apparait dans les village conquis du \u003cChefVillage\u003e",
             "match": {},
             "keyword": "Then "
           },
@@ -186,7 +186,7 @@
               "status": "undefined"
             },
             "line": 23,
-            "name": "il n apparait pas dans les villages ennemis [[]]",
+            "name": "il n apparait pas dans les villages ennemis suna",
             "match": {},
             "keyword": "And "
           }

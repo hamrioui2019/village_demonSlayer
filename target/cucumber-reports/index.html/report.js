@@ -91,7 +91,7 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "name": "un village \"\u003cvillage\u003e\"",
+  "name": "un village \u003cvillage\u003e",
   "keyword": "Given "
 });
 formatter.step({
@@ -99,11 +99,11 @@ formatter.step({
   "keyword": "When "
 });
 formatter.step({
-  "name": "il apparait dans les villages conquis [\u003clisteVillagesConquis\u003e]",
+  "name": "il apparait dans les village conquis du \u003cChefVillage\u003e",
   "keyword": "Then "
 });
 formatter.step({
-  "name": "il n apparait pas dans les villages ennemis [\u003clisteVillagesEnnemis\u003e]",
+  "name": "il n apparait pas dans les villages ennemis \u003cVillage\u003e",
   "keyword": "And "
 });
 formatter.examples({
@@ -113,7 +113,7 @@ formatter.examples({
   "rows": [
     {
       "cells": [
-        "village",
+        "Village",
         "listeVillagesconquis",
         "listeVillagesEnnemis"
       ]
@@ -145,7 +145,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "un village \"oto\"",
+  "name": "un village \u003cvillage\u003e",
   "keyword": "Given "
 });
 formatter.match({});
@@ -161,7 +161,7 @@ formatter.result({
   "status": "undefined"
 });
 formatter.step({
-  "name": "il apparait dans les villages conquis [\u003clisteVillagesConquis\u003e]",
+  "name": "il apparait dans les village conquis du \u003cChefVillage\u003e",
   "keyword": "Then "
 });
 formatter.match({});
@@ -169,7 +169,7 @@ formatter.result({
   "status": "undefined"
 });
 formatter.step({
-  "name": "il n apparait pas dans les villages ennemis [[]]",
+  "name": "il n apparait pas dans les villages ennemis oto",
   "keyword": "And "
 });
 formatter.match({});
@@ -187,7 +187,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "un village \"suna\"",
+  "name": "un village \u003cvillage\u003e",
   "keyword": "Given "
 });
 formatter.match({});
@@ -203,7 +203,7 @@ formatter.result({
   "status": "undefined"
 });
 formatter.step({
-  "name": "il apparait dans les villages conquis [\u003clisteVillagesConquis\u003e]",
+  "name": "il apparait dans les village conquis du \u003cChefVillage\u003e",
   "keyword": "Then "
 });
 formatter.match({});
@@ -211,7 +211,7 @@ formatter.result({
   "status": "undefined"
 });
 formatter.step({
-  "name": "il n apparait pas dans les villages ennemis [[]]",
+  "name": "il n apparait pas dans les villages ennemis suna",
   "keyword": "And "
 });
 formatter.match({});
