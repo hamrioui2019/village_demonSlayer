@@ -19,10 +19,10 @@ Feature: US005_AttaquerVillage
   Scenario Outline: Attaquer un village
     Given un village <village>
     When je l attaque
-    Then il apparait dans les villages conquis <listeVillagesConquis>
-		And il n apparait pas dans les villages ennemis <listeVillagesEnnemis>
+    Then il apparait dans les village conquis du <ChefVillage>
+		And il n apparait pas dans les villages ennemis <Village>
 
     Examples: 
-      | village | listeVillagesconquis  | listeVillagesEnnemis |
+      | Village | listeVillagesconquis  | listeVillagesEnnemis |
       |     oto   | [oto]                | []                   |
       |     suna  | []                   | []                   |	
