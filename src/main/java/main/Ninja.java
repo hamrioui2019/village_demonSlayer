@@ -14,7 +14,7 @@ public class Ninja {
 	}
 
 	public String getNom() {
-		return nom;
+		return this.nom;
 	}
 
 	public void setNom(String nom) {
@@ -22,7 +22,7 @@ public class Ninja {
 	}
 
 	public Village getVillage() {
-		return village;
+		return this.village;
 	}
 
 	public void setVillage(Village village) {

@@ -1,13 +1,12 @@
-package testing;
+package villageTest;
+
 import static org.junit.Assert.*;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-
 import java.util.List;
-
 
 import main.Village;
 
@@ -69,8 +68,6 @@ public class VillageTest {
 		assertEquals(1999, konoha.getNbrMaison());
 	}
 
-
-
 	@Test
 	public void testGetNomVillage() {
 		assertEquals(konoha.getNomVillage(), "konoha");
@@ -106,7 +103,6 @@ public class VillageTest {
 		konoha.setNbrMaison(2500);
 		assertEquals(konoha.getNbrMaison(), 2500);
 	}
-
 
 	@Test
 	public void testAlliance() {
@@ -148,7 +144,5 @@ public class VillageTest {
 		konoha.retirerEnnemi(oto);
 		doNotContains(konoha.getEnnemis(), oto);
 	}
-
-
 
 }

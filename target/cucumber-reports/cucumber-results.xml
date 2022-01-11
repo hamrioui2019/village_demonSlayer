@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="4" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.06286">
+    <testcase classname="US005_AttaquerVillage" name="Attaquer un village ennemi" time="0.038517">
+        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given le village Oto........................................................undefined
+When je l attaque...........................................................undefined
+Then il apparait dans les villages conquis..................................undefined
+And il n apparait pas dans les villages ennemis.............................undefined
+]]></failure>
+    </testcase>
+    <testcase classname="US005_AttaquerVillage" name="Attaquer un village non ennemi" time="0.007523">
+        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given le village Suna.......................................................undefined
+When j attaque Suna.........................................................undefined
+Then il n apparait pas dans les villages conquis............................undefined
+]]></failure>
+    </testcase>
+    <testcase classname="US005_AttaquerVillage" name="Attaquer un village" time="0.011592">
+        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given un village oto........................................................undefined
+When je l attaque...........................................................undefined
+Then il apparait dans les villages conquis <listeVillagesConquis>...........undefined
+And il n apparait pas dans les villages ennemis []..........................undefined
+]]></failure>
+    </testcase>
+    <testcase classname="US005_AttaquerVillage" name="Attaquer un village 2" time="0.005228">
+        <failure message="The scenario has pending or undefined step(s)"><![CDATA[Given un village suna.......................................................undefined
+When je l attaque...........................................................undefined
+Then il apparait dans les villages conquis <listeVillagesConquis>...........undefined
+And il n apparait pas dans les villages ennemis []..........................undefined
+]]></failure>
+    </testcase>
+</testsuite>
