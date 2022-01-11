@@ -7,7 +7,7 @@ Feature: US005_AttaquerVillage
 	
   Scenario: Attaquer un village ennemi
     Given le village Oto
-    When je l attaque 
+    When je l attaque
     Then il apparait dans les villages conquis 
 		And il n apparait pas dans les villages ennemis
 
@@ -17,12 +17,11 @@ Feature: US005_AttaquerVillage
 		Then il n apparait pas dans les villages conquis
 	
   Scenario Outline: Attaquer un village
-    Given un village <village>
+    Given un village <nomVillage>
     When je l attaque
-    Then il apparait dans les village conquis du <ChefVillage>
-		And il n apparait pas dans les villages ennemis <Village>
+    Then il apparait dans les villages conquis de <chefVillage>
+		And il n apparait pas dans les <villageEnnemi>
 
     Examples: 
-      | Village | listeVillagesconquis  | listeVillagesEnnemis |
-      |     oto   | [oto]                | []                   |
-      |     suna  | []                   | []                   |	
+      | nomVillage | chefVillage  | villageEnnemi |
+      |     "Oto"   | "Hokage"               |       ""         |
