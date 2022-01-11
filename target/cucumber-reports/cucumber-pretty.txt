@@ -1,0 +1,20 @@
+
+@tag
+Scenario: Attaquer un village ennemi              # src/test/resources/dojo/US005_AttaquerVillage.feature:8
+  Given le village Oto                            # villageTest.AttaquerSteps.le_village_Oto()
+  When je l attaque                               # villageTest.AttaquerSteps.je_l_attaque()
+  Then il apparait dans les villages conquis      # villageTest.AttaquerSteps.il_apparait_dans_les_villages_conquis()
+  And il n apparait pas dans les villages ennemis # villageTest.AttaquerSteps.il_n_apparait_pas_dans_les_villages_ennemis()
+
+@tag
+Scenario: Attaquer un village non ennemi           # src/test/resources/dojo/US005_AttaquerVillage.feature:14
+  Given le village Suna                            # villageTest.AttaquerSteps.le_village_Suna()
+  When j attaque Suna                              # villageTest.AttaquerSteps.j_attaque_Suna()
+  Then il n apparait pas dans les villages conquis # villageTest.AttaquerSteps.il_n_apparait_pas_dans_les_villages_conquis()
+
+@tag
+Scenario Outline: Attaquer un village                    # src/test/resources/dojo/US005_AttaquerVillage.feature:27
+  Given un village "Oto"                                 # villageTest.AttaquerSteps.un_village(java.lang.String)
+  When je l attaque                                      # villageTest.AttaquerSteps.je_l_attaque()
+  Then il apparait dans les villages conquis de "Hokage" # villageTest.AttaquerSteps.il_apparait_dans_les_villages_conquis_de(java.lang.String)
+  And il n apparait pas dans les ""                      # villageTest.AttaquerSteps.il_n_apparait_pas_dans_les(java.lang.String)

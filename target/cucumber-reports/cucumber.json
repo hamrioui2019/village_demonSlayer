@@ -1,0 +1,212 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-11T15:52:12.741Z",
+        "line": 8,
+        "name": "Attaquer un village ennemi",
+        "description": "",
+        "id": "us005-attaquervillage;attaquer-un-village-ennemi",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2026500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "le village Oto",
+            "match": {
+              "location": "villageTest.AttaquerSteps.le_village_Oto()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "je l attaque",
+            "match": {
+              "location": "villageTest.AttaquerSteps.je_l_attaque()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "il apparait dans les villages conquis",
+            "match": {
+              "location": "villageTest.AttaquerSteps.il_apparait_dans_les_villages_conquis()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "il n apparait pas dans les villages ennemis",
+            "match": {
+              "location": "villageTest.AttaquerSteps.il_n_apparait_pas_dans_les_villages_ennemis()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-11T15:52:12.784Z",
+        "line": 14,
+        "name": "Attaquer un village non ennemi",
+        "description": "",
+        "id": "us005-attaquervillage;attaquer-un-village-non-ennemi",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "le village Suna",
+            "match": {
+              "location": "villageTest.AttaquerSteps.le_village_Suna()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "j attaque Suna",
+            "match": {
+              "location": "villageTest.AttaquerSteps.j_attaque_Suna()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "il n apparait pas dans les villages conquis",
+            "match": {
+              "location": "villageTest.AttaquerSteps.il_n_apparait_pas_dans_les_villages_conquis()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-11T15:52:12.814Z",
+        "line": 27,
+        "name": "Attaquer un village",
+        "description": "",
+        "id": "us005-attaquervillage;attaquer-un-village;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1995000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "un village \"Oto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Oto\"",
+                  "offset": 11
+                }
+              ],
+              "location": "villageTest.AttaquerSteps.un_village(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "je l attaque",
+            "match": {
+              "location": "villageTest.AttaquerSteps.je_l_attaque()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "il apparait dans les villages conquis de \"Hokage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hokage\"",
+                  "offset": 41
+                }
+              ],
+              "location": "villageTest.AttaquerSteps.il_apparait_dans_les_villages_conquis_de(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "il n apparait pas dans les \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 27
+                }
+              ],
+              "location": "villageTest.AttaquerSteps.il_n_apparait_pas_dans_les(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "US005_AttaquerVillage",
+    "description": "\tEn tant que Chef de Village\n\tJe veux pouvoir attaquer des villages\n\tAfin de les conqu�rir",
+    "id": "us005-attaquervillage",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/dojo/US005_AttaquerVillage.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

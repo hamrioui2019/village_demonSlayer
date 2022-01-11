@@ -1,0 +1,186 @@
+[
+  {
+    "source": "le village Oto",
+    "steps": [
+      {
+        "name": "le village Oto",
+        "aggregatedDurations": {
+          "median": 0.0020265,
+          "average": 0.0020265
+        },
+        "durations": [
+          {
+            "duration": 0.0020265,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "je l attaque",
+    "steps": [
+      {
+        "name": "je l attaque",
+        "aggregatedDurations": {
+          "median": 4.983E-4,
+          "average": 4.983E-4
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:10"
+          },
+          {
+            "duration": 9.966E-4,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "il apparait dans les villages conquis",
+    "steps": [
+      {
+        "name": "il apparait dans les villages conquis",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "il n apparait pas dans les villages ennemis",
+    "steps": [
+      {
+        "name": "il n apparait pas dans les villages ennemis",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "le village Suna",
+    "steps": [
+      {
+        "name": "le village Suna",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "j attaque Suna",
+    "steps": [
+      {
+        "name": "j attaque Suna",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "il n apparait pas dans les villages conquis",
+    "steps": [
+      {
+        "name": "il n apparait pas dans les villages conquis",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "un village {string}",
+    "steps": [
+      {
+        "name": "un village \"Oto\"",
+        "aggregatedDurations": {
+          "median": 0.001995,
+          "average": 0.001995
+        },
+        "durations": [
+          {
+            "duration": 0.001995,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "il apparait dans les villages conquis de {string}",
+    "steps": [
+      {
+        "name": "il apparait dans les villages conquis de \"Hokage\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "il n apparait pas dans les {string}",
+    "steps": [
+      {
+        "name": "il n apparait pas dans les \"\"",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:23"
+          }
+        ]
+      }
+    ]
+  }
+]

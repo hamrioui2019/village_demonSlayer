@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.348">
+    <testcase classname="US005_AttaquerVillage" name="Attaquer un village ennemi" time="0.026">
+        <system-out><![CDATA[Given le village Oto........................................................passed
+When je l attaque...........................................................passed
+Then il apparait dans les villages conquis..................................passed
+And il n apparait pas dans les villages ennemis.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US005_AttaquerVillage" name="Attaquer un village non ennemi" time="0.011">
+        <system-out><![CDATA[Given le village Suna.......................................................passed
+When j attaque Suna.........................................................passed
+Then il n apparait pas dans les villages conquis............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="US005_AttaquerVillage" name="Attaquer un village" time="0.007">
+        <system-out><![CDATA[Given un village "Oto"......................................................passed
+When je l attaque...........................................................passed
+Then il apparait dans les villages conquis de "Hokage"......................passed
+And il n apparait pas dans les ""...........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
