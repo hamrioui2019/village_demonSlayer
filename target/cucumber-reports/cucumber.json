@@ -3,17 +3,17 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2022-01-12T21:47:05.654Z",
-        "line": 15,
-        "name": "Accueillir un demon slayer",
+        "start_timestamp": "2022-01-12T22:37:59.508Z",
+        "line": 16,
+        "name": "Construire une maison",
         "description": "",
-        "id": "recuperer-le-nombre-d-habittant;accueillir-un-demon-slayer;;2",
+        "id": "construire-une-maison;construire-une-maison;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 5985100,
+              "duration": 998100,
               "status": "passed"
             },
             "line": 9,
@@ -25,37 +25,52 @@
                   "offset": 11
                 }
               ],
-              "location": "fusion.FusionSteps.le_village(java.lang.String)"
+              "location": "villageTest.ConstruireSteps.le_village(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1995500,
               "status": "passed"
             },
             "line": 10,
-            "name": "ajouter un demon slayer",
+            "name": "le village a 2000 maisons",
             "match": {
-              "location": "fusion.FusionSteps.ajouter_un_demon_slayer()"
+              "arguments": [
+                {
+                  "val": "2000",
+                  "offset": 13
+                }
+              ],
+              "location": "villageTest.ConstruireSteps.le_village_a_maisons(java.lang.Integer)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1993700,
               "status": "passed"
             },
             "line": 11,
-            "name": "le 5001 est enregistre",
+            "name": "une maison est construite",
+            "match": {
+              "location": "villageTest.ConstruireSteps.une_maison_est_construite()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "le 2001 enregistre",
             "match": {
               "arguments": [
                 {
-                  "val": "5001",
+                  "val": "2001",
                   "offset": 3
                 }
               ],
-              "location": "fusion.FusionSteps.le_est_enregistre(java.lang.Integer)"
+              "location": "villageTest.ConstruireSteps.le_enregistre(java.lang.Integer)"
             },
             "keyword": "Then "
           }
@@ -67,11 +82,93 @@
         ]
       }
     ],
-    "name": "Recuperer le nombre d habittant",
-    "description": "\tEn tant que chef du village\n\tJe veux pouvoir ajouter un demon slayer\n\tAfin de voir ma population grandir",
-    "id": "recuperer-le-nombre-d-habittant",
+    "name": "Construire une maison",
+    "description": "\tEn tant que Village\n\tJe veux pouvoir construire des maisons\n\tAfin d agrandir le village",
+    "id": "construire-une-maison",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/dojo/Fusion.feature",
+    "uri": "file:src/test/resources/dojo/ConstruireMaison.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Suna\"",
+                  "offset": 11
+                }
+              ],
+              "location": "villageTest.TuerTraitreSteps.un_village(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "le village a 1500 habitants",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1500",
+                  "offset": 13
+                }
+              ],
+              "location": "villageTest.TuerTraitreSteps.le_village_a_habitants(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "un traitre est tue",
+            "match": {
+              "location": "villageTest.TuerTraitreSteps.un_traitre_est_tue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "le 1499 est enregistre",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1499",
+                  "offset": 3
+                }
+              ],
+              "location": "villageTest.TuerTraitreSteps.le_est_enregistre(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Tuer un traitre",
+    "description": "\tEn tant que chef du village\n\tJe veux pouvoir tuer les traitres\n\tAfin de maintenir la paix",
+    "id": "tuer-un-traitre",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/dojo/TuerTraitre.feature",
     "tags": [
       {
         "name": "@tag",

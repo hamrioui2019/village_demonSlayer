@@ -1,6 +1,12 @@
 
 @tag
-Scenario Outline: Accueillir un demon slayer # src/test/resources/dojo/Fusion.feature:15
-  Given le village "Konoha"                  # fusion.FusionSteps.le_village(java.lang.String)
-  When ajouter un demon slayer               # fusion.FusionSteps.ajouter_un_demon_slayer()
-  Then le 5001 est enregistre                # fusion.FusionSteps.le_est_enregistre(java.lang.Integer)
+Scenario Outline: Construire une maison # src/test/resources/dojo/ConstruireMaison.feature:16
+  Given le village "Konoha"             # villageTest.ConstruireSteps.le_village(java.lang.String)
+  When le village a 2000 maisons        # villageTest.ConstruireSteps.le_village_a_maisons(java.lang.Integer)
+  And une maison est construite         # villageTest.ConstruireSteps.une_maison_est_construite()
+  Then le 2001 enregistre               # villageTest.ConstruireSteps.le_enregistre(java.lang.Integer)
+: Tuer un traitre  # src/test/resources/dojo/TuerTraitre.feature:17
+  Given un village "Suna"          # villageTest.TuerTraitreSteps.un_village(java.lang.String)
+  When le village a 1500 habitants # villageTest.TuerTraitreSteps.le_village_a_habitants(java.lang.Integer)
+  And un traitre est tue           # villageTest.TuerTraitreSteps.un_traitre_est_tue()
+  Then le 1499 est enregistre      # villageTest.TuerTraitreSteps.le_est_enregistre(java.lang.Integer)

@@ -5,31 +5,83 @@
       {
         "name": "le village \"Konoha\"",
         "aggregatedDurations": {
-          "median": 0.0059851,
-          "average": 0.0059851
+          "median": 9.981E-4,
+          "average": 9.981E-4
         },
         "durations": [
           {
-            "duration": 0.0059851,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/Fusion.feature:9"
+            "duration": 9.981E-4,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/ConstruireMaison.feature:9"
           }
         ]
       }
     ]
   },
   {
-    "source": "ajouter un demon slayer",
+    "source": "le village a {int} maisons",
     "steps": [
       {
-        "name": "ajouter un demon slayer",
+        "name": "le village a 2000 maisons",
         "aggregatedDurations": {
-          "median": 0.0019955,
-          "average": 0.0019955
+          "median": 0.0,
+          "average": 0.0
         },
         "durations": [
           {
-            "duration": 0.0019955,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/Fusion.feature:10"
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/ConstruireMaison.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "une maison est construite",
+    "steps": [
+      {
+        "name": "une maison est construite",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/ConstruireMaison.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "le {int} enregistre",
+    "steps": [
+      {
+        "name": "le 2001 enregistre",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/ConstruireMaison.feature:12"
+          }
+        ]
+      }
+    ]
+  }
+]     "median": 9.973E-4,
+          "average": 9.973E-4
+        },
+        "durations": [
+          {
+            "duration": 0.0019946,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/TuerTraitre.feature:11"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/TuerTraitre.feature:11"
           }
         ]
       }
@@ -39,15 +91,28 @@
     "source": "le {int} est enregistre",
     "steps": [
       {
-        "name": "le 5001 est enregistre",
+        "name": "le 9999 est enregistre",
         "aggregatedDurations": {
-          "median": 0.0019937,
-          "average": 0.0019937
+          "median": 0.0,
+          "average": 0.0
         },
         "durations": [
           {
-            "duration": 0.0019937,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/Fusion.feature:11"
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/TuerTraitre.feature:12"
+          }
+        ]
+      },
+      {
+        "name": "le 1499 est enregistre",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/TuerTraitre.feature:12"
           }
         ]
       }

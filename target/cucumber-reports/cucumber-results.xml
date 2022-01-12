@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.486">
-    <testcase classname="Recuperer le nombre d habittant" name="Accueillir un demon slayer" time="0.142">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.077">
+    <testcase classname="Construire une maison" name="Construire une maison" time="0.04">
         <system-out><![CDATA[Given le village "Konoha"...................................................passed
-When ajouter un demon slayer................................................passed
-Then le 5001 est enregistre.................................................passed
+When le village a 2000 maisons..............................................passed
+And une maison est construite...............................................passed
+Then le 2001 enregistre.....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
+Tuer un traitre" name="Tuer un traitre 2" time="0.007">
+        <system-out><![CDATA[Given un village "Suna".....................................................passed
+When le village a 1500 habitants............................................passed
+And un traitre est tue......................................................passed
+Then le 1499 est enregistre.................................................passed
 ]]></system-out>
     </testcase>
 </testsuite>

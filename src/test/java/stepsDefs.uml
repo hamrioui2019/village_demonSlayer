@@ -1,0 +1,1610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_lmQ3AHPzEeyoILQGEUt8Vg" name="stepsDefs">
+    <eAnnotations xmi:id="_lzrA4HPzEeyoILQGEUt8Vg" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_lzrn8HPzEeyoILQGEUt8Vg" source="codegen">
+        <details xmi:id="_lzrn8XPzEeyoILQGEUt8Vg" key="codegenDirectory" value="/projet-maven/src/main/java"/>
+        <details xmi:id="_m122oHPzEeyoILQGEUt8Vg" key="AssociatedSourceCode" value="/projet-maven/src/test/java/demonSlayers/DemonSlayerTest.java;616462778/1;/projet-maven/src/test/java/demonSlayers/NiveauDePuissanceSteps.java;2647758945/1;/projet-maven/src/test/java/fusion/AffichageTest.java;786264784/1;/projet-maven/src/test/java/fusion/AfficherNomDemonSedentaireSteps.java;551933461/1;/projet-maven/src/test/java/fusion/DemonSlayerSedentaireTest.java;3949478635/1;/projet-maven/src/test/java/fusion/DemonVillageSteps.java;1090079247/1;/projet-maven/src/test/java/fusion/FusionSteps.java;2982420907/1;/projet-maven/src/test/java/testRunners/TestRunnerAfficherNom.java;3688601829/1;/projet-maven/src/test/java/testRunners/TestRunnerConstruireMaison.java;4180897557/1;/projet-maven/src/test/java/testRunners/TestRunnerDemonVillage.java;696442300/1;/projet-maven/src/test/java/testRunners/TestRunnerFusion.java;3661181920/1;/projet-maven/src/test/java/testRunners/TestRunnerGetNiveauDePuissance.java;1345487232/1;/projet-maven/src/test/java/testRunners/TestRunnerTuerTraitre.java;4272485664/1;/projet-maven/src/test/java/villageTest/ChefVillageTest.java;2167620831/1;/projet-maven/src/test/java/villageTest/ConstruireSteps.java;2864727201/1;/projet-maven/src/test/java/villageTest/NinjaTest.java;257152320/1;/projet-maven/src/test/java/villageTest/TuerTraitreSteps.java;4111290486/1;/projet-maven/src/test/java/villageTest/VillageTest.java;1393729878/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_mUiSQHPzEeyoILQGEUt8Vg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_mUkugHPzEeyoILQGEUt8Vg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_mUkugXPzEeyoILQGEUt8Vg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_mUkugnPzEeyoILQGEUt8Vg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_mUkug3PzEeyoILQGEUt8Vg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_mUkuhHPzEeyoILQGEUt8Vg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_mUkuhXPzEeyoILQGEUt8Vg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_mUlVkHPzEeyoILQGEUt8Vg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_mUlVkXPzEeyoILQGEUt8Vg">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_mUl8oHPzEeyoILQGEUt8Vg" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_mUl8oXPzEeyoILQGEUt8Vg" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_mVsI0HPzEeyoILQGEUt8Vg" name="runner">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_mg-LwXPzEeyoILQGEUt8Vg" name="RunWith"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_mgTdYHPzEeyoILQGEUt8Vg" name="After"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_mgUrgHPzEeyoILQGEUt8Vg" name="Before"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_mgVSkXPzEeyoILQGEUt8Vg" name="Test"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_mgYV4XPzEeyoILQGEUt8Vg" name="Assert"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_mUpnAHPzEeyoILQGEUt8Vg" name="damonSlayer">
+      <packagedElement xmi:type="uml:Class" xmi:id="_mgWgsXPzEeyoILQGEUt8Vg" name="DemonSlayer"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mgXHwXPzEeyoILQGEUt8Vg" name="Grade"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mggRsHPzEeyoILQGEUt8Vg" name="DemonSlayerSedentaire"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_mUz_EHPzEeyoILQGEUt8Vg" name="demonSlayers">
+      <packagedElement xmi:type="uml:Class" xmi:id="_mXNLwHPzEeyoILQGEUt8Vg" name="DemonSlayerTest">
+        <eAnnotations xmi:id="_mXNy0HPzEeyoILQGEUt8Vg" source="http://ns.yatta.de/umllab">
+          <contents xmi:type="ecore:EAnnotation" xmi:id="_mXOZ4HPzEeyoILQGEUt8Vg" source="codegen">
+            <details xmi:id="_mXOZ4XPzEeyoILQGEUt8Vg" key="codegenDirectory" value="/projet-maven/src/test/java"/>
+          </contents>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_mh_fcHPzEeyoILQGEUt8Vg" name="toto" visibility="private" type="_mgWgsXPzEeyoILQGEUt8Vg" association="_mjX_gHPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miAtkHPzEeyoILQGEUt8Vg" name="grade1" visibility="private" type="_mgXHwXPzEeyoILQGEUt8Vg" association="_mjabwHPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miBUoHPzEeyoILQGEUt8Vg" name="tata" visibility="private" type="_mgWgsXPzEeyoILQGEUt8Vg" association="_mjbC0XPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miB7sXPzEeyoILQGEUt8Vg" name="pillier" visibility="private" type="_mgXHwXPzEeyoILQGEUt8Vg" association="_mjcQ8XPzEeyoILQGEUt8Vg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mio_sHPzEeyoILQGEUt8Vg" name="setUp" specification="_mXrs4HPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>toto = new DemonSlayer(&quot;toto&quot;, 11, &quot;eau&quot;);
+		grade1 = new Grade(&quot;chef&quot;, 5);
+		grade1.getIntitule();
+		toto.setGrade(grade1);
+		tata = new DemonSlayer(&quot;tata&quot;, 6, &quot;feu&quot;);
+
+		pillier = new Grade(&quot;pillier&quot;, 5);
+
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mio_sXPzEeyoILQGEUt8Vg" name="testGetNom" specification="_mX2E8nPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>assertEquals(&quot;toto&quot;, toto.getNom());
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mipmwHPzEeyoILQGEUt8Vg" name="testFaireEquipe" specification="_mYFVgHPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>assertEquals(true, toto.faireEquipe(tata));
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mipmwXPzEeyoILQGEUt8Vg" name="testAjouterDemonSlayerDansEquipe" specification="_mYF8knPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>pillier.ajouterDemonSlayerDansGrade(toto);
+		assertEquals(true, pillier.estDansLeGrade(toto));
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mipmwnPzEeyoILQGEUt8Vg" name="testPeutVaincreUnDemon" specification="_mYHKsnPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>tata.setNbDeMouvements(11);
+		pillier.ajouterDemonSlayerDansGrade(toto);
+		pillier.ajouterDemonSlayerDansGrade(tata);
+		toto.setGrade(pillier);
+		tata.setGrade(pillier);
+		toto.ajouterCoequipier(tata);
+		assertEquals(true, toto.peutVaincreUnDemon());
+
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mipmw3PzEeyoILQGEUt8Vg" name="testRedefinitionDemonSlayer" specification="_mYJm8HPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>toto.setTypeDeSouffle(&quot;terre&quot;);
+		toto.setNom(&quot;Tanjiro&quot;);
+		toto.setCoequipier(tata);
+		assertEquals(11, toto.getNbDeMouvements());
+		assertEquals(tata.getNom(), toto.getCoequipier());
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_miqN0HPzEeyoILQGEUt8Vg" name="testGrade" specification="_mYK1EHPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>pillier.setIntitule(&quot;Pillier&quot;);
+		pillier.setNiveauPuissance(6);
+		assertEquals(&quot;Pillier&quot;, pillier.getIntitule());
+		assertEquals(6, pillier.getNiveauPuissance());
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_mXPoAHPzEeyoILQGEUt8Vg" name="DemonSlayerTest">
+          <eAnnotations xmi:id="_mXPoAXPzEeyoILQGEUt8Vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_mXPoAnPzEeyoILQGEUt8Vg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_mXrF0HPzEeyoILQGEUt8Vg" type="_mXNLwHPzEeyoILQGEUt8Vg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_mXrs4HPzEeyoILQGEUt8Vg" name="setUp" method="_mio_sHPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mX1d4HPzEeyoILQGEUt8Vg" name="tearDown"/>
+        <ownedOperation xmi:id="_mX2E8nPzEeyoILQGEUt8Vg" name="testGetNom" method="_mio_sXPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mYFVgHPzEeyoILQGEUt8Vg" name="testFaireEquipe" method="_mipmwHPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mYF8knPzEeyoILQGEUt8Vg" name="testAjouterDemonSlayerDansEquipe" method="_mipmwXPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mYHKsnPzEeyoILQGEUt8Vg" name="testPeutVaincreUnDemon" method="_mipmwnPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mYJm8HPzEeyoILQGEUt8Vg" name="testRedefinitionDemonSlayer" method="_mipmw3PzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mYK1EHPzEeyoILQGEUt8Vg" name="testGrade" method="_miqN0HPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mYN4YHPzEeyoILQGEUt8Vg" name="NiveauDePuissanceSteps">
+        <eAnnotations xmi:id="_mYOfcHPzEeyoILQGEUt8Vg" source="http://ns.yatta.de/umllab">
+          <contents xmi:type="ecore:EAnnotation" xmi:id="_mYOfcXPzEeyoILQGEUt8Vg" source="codegen">
+            <details xmi:id="_mYOfcnPzEeyoILQGEUt8Vg" key="codegenDirectory" value="/projet-maven/src/test/java"/>
+          </contents>
+        </eAnnotations>
+        <generalization xmi:id="_mgecgHPzEeyoILQGEUt8Vg" general="_mZdOhHPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miDw4HPzEeyoILQGEUt8Vg" name="toto" visibility="private" type="_mgWgsXPzEeyoILQGEUt8Vg" association="_mjc4AXPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miEX8XPzEeyoILQGEUt8Vg" name="grade1" visibility="private" type="_mgXHwXPzEeyoILQGEUt8Vg" association="_mjvL4XPzEeyoILQGEUt8Vg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_miq04HPzEeyoILQGEUt8Vg" name="un_demon_slayer" specification="_mYPGgHPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_miq04XPzEeyoILQGEUt8Vg" name="string">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>toto = new DemonSlayer(string, 11, &quot;eau&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mirb8HPzEeyoILQGEUt8Vg" name="avec_un_grade" specification="_mYRiwHPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mirb8XPzEeyoILQGEUt8Vg" name="string">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>grade1 = new Grade(string, 5);&#xD;
+		toto.setGrade(grade1);&#xD;
+		grade1.ajouterDemonSlayerDansGrade(toto);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mirb8nPzEeyoILQGEUt8Vg" name="je_recupere_mon_niveau_de_puissance" specification="_mYSw4nPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>toto.getGrade().getNiveauPuissance();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mirb83PzEeyoILQGEUt8Vg" name="le_niveau_de_puissance_est_affecte" specification="_mYT_AHPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mirb9HPzEeyoILQGEUt8Vg" name="int1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>assertTrue(int1 == toto.getGrade().getNiveauPuissance());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_mYPGgHPzEeyoILQGEUt8Vg" name="un_demon_slayer" method="_miq04HPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mYPGgXPzEeyoILQGEUt8Vg" name="string">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_mYRiwHPzEeyoILQGEUt8Vg" name="avec_un_grade" method="_mirb8HPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mYRiwXPzEeyoILQGEUt8Vg" name="string">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_mYSw4nPzEeyoILQGEUt8Vg" name="je_recupere_mon_niveau_de_puissance" method="_mirb8nPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mYT_AHPzEeyoILQGEUt8Vg" name="le_niveau_de_puissance_est_affecte" method="_mirb83PzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mYT_AXPzEeyoILQGEUt8Vg" name="int1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mjX_gHPzEeyoILQGEUt8Vg" name="" memberEnd="_mjX_gXPzEeyoILQGEUt8Vg _mh_fcHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mjX_gXPzEeyoILQGEUt8Vg" name="" type="_mXNLwHPzEeyoILQGEUt8Vg" association="_mjX_gHPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mjabwHPzEeyoILQGEUt8Vg" name="" memberEnd="_mjabwXPzEeyoILQGEUt8Vg _miAtkHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mjabwXPzEeyoILQGEUt8Vg" name="" type="_mXNLwHPzEeyoILQGEUt8Vg" association="_mjabwHPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mjbC0XPzEeyoILQGEUt8Vg" name="" memberEnd="_mjbC0nPzEeyoILQGEUt8Vg _miBUoHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mjbC0nPzEeyoILQGEUt8Vg" name="" type="_mXNLwHPzEeyoILQGEUt8Vg" association="_mjbC0XPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mjcQ8XPzEeyoILQGEUt8Vg" name="" memberEnd="_mjcQ8nPzEeyoILQGEUt8Vg _miB7sXPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mjcQ8nPzEeyoILQGEUt8Vg" name="" type="_mXNLwHPzEeyoILQGEUt8Vg" association="_mjcQ8XPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mjc4AXPzEeyoILQGEUt8Vg" name="" memberEnd="_mjc4AnPzEeyoILQGEUt8Vg _miDw4HPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mjc4AnPzEeyoILQGEUt8Vg" name="" type="_mYN4YHPzEeyoILQGEUt8Vg" association="_mjc4AXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mjvL4XPzEeyoILQGEUt8Vg" name="" memberEnd="_mjvL4nPzEeyoILQGEUt8Vg _miEX8XPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mjvL4nPzEeyoILQGEUt8Vg" name="" type="_mYN4YHPzEeyoILQGEUt8Vg" association="_mjvL4XPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_mU6swHPzEeyoILQGEUt8Vg" name="io">
+      <packagedElement xmi:type="uml:Package" xmi:id="_mU6swXPzEeyoILQGEUt8Vg" name="cucumber">
+        <packagedElement xmi:type="uml:Package" xmi:id="_mU6swnPzEeyoILQGEUt8Vg" name="java">
+          <packagedElement xmi:type="uml:Package" xmi:id="_mU6sw3PzEeyoILQGEUt8Vg" name="en"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_mVrhwHPzEeyoILQGEUt8Vg" name="junit">
+          <packagedElement xmi:type="uml:Class" xmi:id="_mg7IcHPzEeyoILQGEUt8Vg" name="Cucumber"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_mg89oXPzEeyoILQGEUt8Vg" name="CucumberOptions"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_mU7T0HPzEeyoILQGEUt8Vg" name="testRunners">
+      <packagedElement xmi:type="uml:Class" xmi:id="_mZPzIHPzEeyoILQGEUt8Vg" name="TestRunnerAfficherNom">
+        <eAnnotations xmi:id="_mZQaMHPzEeyoILQGEUt8Vg" source="http://ns.yatta.de/umllab">
+          <contents xmi:type="ecore:EAnnotation" xmi:id="_mZQaMXPzEeyoILQGEUt8Vg" source="codegen">
+            <details xmi:id="_mZQaMnPzEeyoILQGEUt8Vg" key="codegenDirectory" value="/projet-maven/src/test/java"/>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mZUEkHPzEeyoILQGEUt8Vg" name="TestRunnerConstruireMaison">
+        <eAnnotations xmi:id="_mZUroHPzEeyoILQGEUt8Vg" source="http://ns.yatta.de/umllab">
+          <contents xmi:type="ecore:EAnnotation" xmi:id="_mZUroXPzEeyoILQGEUt8Vg" source="codegen">
+            <details xmi:id="_mZUronPzEeyoILQGEUt8Vg" key="codegenDirectory" value="/projet-maven/src/test/java"/>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mZWg0XPzEeyoILQGEUt8Vg" name="TestRunnerDemonVillage">
+        <eAnnotations xmi:id="_mZYWAHPzEeyoILQGEUt8Vg" source="http://ns.yatta.de/umllab">
+          <contents xmi:type="ecore:EAnnotation" xmi:id="_mZY9EHPzEeyoILQGEUt8Vg" source="codegen">
+            <details xmi:id="_mZZkIHPzEeyoILQGEUt8Vg" key="codegenDirectory" value="/projet-maven/src/test/java"/>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mZbZUHPzEeyoILQGEUt8Vg" name="TestRunnerFusion">
+        <eAnnotations xmi:id="_mZcAYHPzEeyoILQGEUt8Vg" source="http://ns.yatta.de/umllab">
+          <contents xmi:type="ecore:EAnnotation" xmi:id="_mZcAYXPzEeyoILQGEUt8Vg" source="codegen">
+            <details xmi:id="_mZcAYnPzEeyoILQGEUt8Vg" key="codegenDirectory" value="/projet-maven/src/test/java"/>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mZdOhHPzEeyoILQGEUt8Vg" name="TestRunnerGetNiveauDePuissance">
+        <eAnnotations xmi:id="_mZd1kHPzEeyoILQGEUt8Vg" source="http://ns.yatta.de/umllab">
+          <contents xmi:type="ecore:EAnnotation" xmi:id="_mZd1kXPzEeyoILQGEUt8Vg" source="codegen">
+            <details xmi:id="_mZd1knPzEeyoILQGEUt8Vg" key="codegenDirectory" value="/projet-maven/src/test/java"/>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mZgR1HPzEeyoILQGEUt8Vg" name="TestRunnerTuerTraitre">
+        <eAnnotations xmi:id="_mZg44HPzEeyoILQGEUt8Vg" source="http://ns.yatta.de/umllab">
+          <contents xmi:type="ecore:EAnnotation" xmi:id="_mZg44XPzEeyoILQGEUt8Vg" source="codegen">
+            <details xmi:id="_mZg44nPzEeyoILQGEUt8Vg" key="codegenDirectory" value="/projet-maven/src/test/java"/>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_mVCokHPzEeyoILQGEUt8Vg" name="main">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_mghf0HPzEeyoILQGEUt8Vg" name="Affichage"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mgit8XPzEeyoILQGEUt8Vg" name="AffichageDemonSlayerSedentaire"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mgj8EHPzEeyoILQGEUt8Vg" name="AffichageNinja"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mgkjIXPzEeyoILQGEUt8Vg" name="AffichageVillage"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mglxQHPzEeyoILQGEUt8Vg" name="Ninja"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mgmYUXPzEeyoILQGEUt8Vg" name="Village"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mhB2IHPzEeyoILQGEUt8Vg" name="ChefVillage"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_mVFE0HPzEeyoILQGEUt8Vg" name="fusion">
+      <packagedElement xmi:type="uml:Class" xmi:id="_mYXCUHPzEeyoILQGEUt8Vg" name="AffichageTest">
+        <eAnnotations xmi:id="_mYXpYHPzEeyoILQGEUt8Vg" source="http://ns.yatta.de/umllab">
+          <contents xmi:type="ecore:EAnnotation" xmi:id="_mYXpYXPzEeyoILQGEUt8Vg" source="codegen">
+            <details xmi:id="_mYXpYnPzEeyoILQGEUt8Vg" key="codegenDirectory" value="/projet-maven/src/test/java"/>
+          </contents>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_miFmEHPzEeyoILQGEUt8Vg" name="toto" visibility="private" type="_mggRsHPzEeyoILQGEUt8Vg" association="_mjxBEHPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miG0MXPzEeyoILQGEUt8Vg" name="tata" visibility="private" type="_mggRsHPzEeyoILQGEUt8Vg" association="_mjyPMHPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miICUHPzEeyoILQGEUt8Vg" name="naruto" visibility="private" type="_mglxQHPzEeyoILQGEUt8Vg" association="_mjzdUHPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miJQcHPzEeyoILQGEUt8Vg" name="sasuke" visibility="private" type="_mglxQHPzEeyoILQGEUt8Vg" association="_mj0EYXPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miJ3gXPzEeyoILQGEUt8Vg" name="konoha" visibility="private" type="_mgmYUXPzEeyoILQGEUt8Vg" association="_mj1SgXPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miLFoHPzEeyoILQGEUt8Vg" name="affichageDemon" visibility="private" type="_mgit8XPzEeyoILQGEUt8Vg" association="_mj2goHPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miLssHPzEeyoILQGEUt8Vg" name="affichageNinja" visibility="private" type="_mgj8EHPzEeyoILQGEUt8Vg" association="_mj484XPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miMTwXPzEeyoILQGEUt8Vg" name="affichage" visibility="private" type="_mghf0HPzEeyoILQGEUt8Vg" association="_mj6LAXPzEeyoILQGEUt8Vg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_misDAHPzEeyoILQGEUt8Vg" name="setUp" specification="_mYZekHPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>affichageDemon = new AffichageDemonSlayerSedentaire();&#xD;
+		affichageNinja = new AffichageNinja();&#xD;
+		affichage = new AffichageVillage();&#xD;
+&#xD;
+		konoha = new Village(affichage);&#xD;
+		konoha.setNbrHabitant(5000);&#xD;
+		konoha.setNbrMaison(2000);&#xD;
+		konoha.setNomVillage(&quot;konoha&quot;);&#xD;
+&#xD;
+		toto = new DemonSlayerSedentaire(konoha, &quot;toto&quot;, 11, &quot;eau&quot;);&#xD;
+		tata = new DemonSlayerSedentaire(konoha, &quot;tata&quot;, 6, &quot;feu&quot;);&#xD;
+&#xD;
+		naruto = new Ninja(&quot;naruto&quot;, konoha);&#xD;
+		sasuke = new Ninja(&quot;sasuke&quot;, konoha);&#xD;
+&#xD;
+		konoha.ajouterDemonSlayerSedentaire(toto);&#xD;
+		konoha.ajouterDemonSlayerSedentaire(tata);&#xD;
+&#xD;
+		konoha.ajouterNinja(naruto);&#xD;
+		konoha.ajouterNinja(sasuke);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_misDAXPzEeyoILQGEUt8Vg" name="testAffichageDemonSlayer" specification="_mYassXPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>assertEquals(&quot;Nom : toto | Type de souffle : eau\nNom : tata | Type de souffle : feu\n&quot;,&#xD;
+				affichageDemon.afficher(konoha));&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_misqEHPzEeyoILQGEUt8Vg" name="testAffichageNinja" specification="_mYb60HPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>assertEquals(&quot;Nom : naruto | Village : konoha\nNom : sasuke | Village : konoha\n&quot;,&#xD;
+				affichageNinja.afficher(konoha));&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_misqEXPzEeyoILQGEUt8Vg" name="testAffichageVillage" specification="_mYdI8nPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>assertEquals(&#xD;
+				&quot;Il y a 5004 habitants dans ce village, dont : \n2 ninjas qui sont : \nNom : naruto\nNom : sasuke\n et 2 demon slayers qui sont : \nNom : toto | Type de souffle : eau\nNom : tata | Type de souffle : feu\n&quot;,&#xD;
+				konoha.afficher());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_mYZekHPzEeyoILQGEUt8Vg" name="setUp" method="_misDAHPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mYassXPzEeyoILQGEUt8Vg" name="testAffichageDemonSlayer" method="_misDAXPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mYb60HPzEeyoILQGEUt8Vg" name="testAffichageNinja" method="_misqEHPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mYdI8nPzEeyoILQGEUt8Vg" name="testAffichageVillage" method="_misqEXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mYiBcHPzEeyoILQGEUt8Vg" name="AfficherNomDemonSedentaireSteps">
+        <eAnnotations xmi:id="_mYiogHPzEeyoILQGEUt8Vg" source="http://ns.yatta.de/umllab">
+          <contents xmi:type="ecore:EAnnotation" xmi:id="_mYjPkHPzEeyoILQGEUt8Vg" source="codegen">
+            <details xmi:id="_mYjPkXPzEeyoILQGEUt8Vg" key="codegenDirectory" value="/projet-maven/src/test/java"/>
+          </contents>
+        </eAnnotations>
+        <generalization xmi:id="_mgu7MHPzEeyoILQGEUt8Vg" general="_mZPzIHPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miNh4HPzEeyoILQGEUt8Vg" name="toto" visibility="private" type="_mggRsHPzEeyoILQGEUt8Vg" association="_mj8AMHPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miOI8XPzEeyoILQGEUt8Vg" name="konoha" visibility="private" type="_mgmYUXPzEeyoILQGEUt8Vg" association="_mj9OUHPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miOwAXPzEeyoILQGEUt8Vg" name="affichage" visibility="private" type="_mghf0HPzEeyoILQGEUt8Vg" association="_mj_DgHPzEeyoILQGEUt8Vg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mitRIHPzEeyoILQGEUt8Vg" name="un_demon_slayer_sedentaire" specification="_mYj2oHPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>affichage = new AffichageVillage();&#xD;
+		konoha = new Village(affichage);&#xD;
+		konoha.setNomVillage(&quot;konoha&quot;);&#xD;
+		toto = new DemonSlayerSedentaire(konoha, &quot;toto&quot;, 11, &quot;eau&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mitRIXPzEeyoILQGEUt8Vg" name="recupere_son_nom" specification="_mYlEwHPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>toto.getNom();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mitRInPzEeyoILQGEUt8Vg" name="son_nom_correspond_bien" specification="_mYmS4XPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>assertEquals(&quot;toto&quot; ,toto.getNom());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_mYj2oHPzEeyoILQGEUt8Vg" name="un_demon_slayer_sedentaire" method="_mitRIHPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mYlEwHPzEeyoILQGEUt8Vg" name="recupere_son_nom" method="_mitRIXPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mYmS4XPzEeyoILQGEUt8Vg" name="son_nom_correspond_bien" method="_mitRInPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mYqkUHPzEeyoILQGEUt8Vg" name="DemonSlayerSedentaireTest">
+        <eAnnotations xmi:id="_mYrycHPzEeyoILQGEUt8Vg" source="http://ns.yatta.de/umllab">
+          <contents xmi:type="ecore:EAnnotation" xmi:id="_mYrycXPzEeyoILQGEUt8Vg" source="codegen">
+            <details xmi:id="_mYrycnPzEeyoILQGEUt8Vg" key="codegenDirectory" value="/projet-maven/src/test/java"/>
+          </contents>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_miP-IHPzEeyoILQGEUt8Vg" name="toto" visibility="private" type="_mggRsHPzEeyoILQGEUt8Vg" association="_mj_qkXPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miQlMXPzEeyoILQGEUt8Vg" name="konoha" visibility="private" type="_mgmYUXPzEeyoILQGEUt8Vg" association="_mkA4sXPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miRMQXPzEeyoILQGEUt8Vg" name="oto" visibility="private" type="_mgmYUXPzEeyoILQGEUt8Vg" association="_mkDU8HPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miSaYHPzEeyoILQGEUt8Vg" name="affichage" visibility="private" type="_mghf0HPzEeyoILQGEUt8Vg" association="_mkFKIHPzEeyoILQGEUt8Vg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mit4MHPzEeyoILQGEUt8Vg" name="setUp" specification="_mYtnoHPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>affichage = new AffichageVillage();
+		konoha = new Village(affichage);
+		oto = new Village(affichage);
+		toto = new DemonSlayerSedentaire(konoha, &quot;toto&quot;, 11, &quot;eau&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mit4MXPzEeyoILQGEUt8Vg" name="testDemonSlayerSedentaire" specification="_mYxSAHPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>toto.setVillage(oto);
+		assertEquals(oto, toto.getVillage());
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_mYsZgHPzEeyoILQGEUt8Vg" name="DemonSlayerSedentaireTest">
+          <eAnnotations xmi:id="_mYtAkHPzEeyoILQGEUt8Vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_mYtAkXPzEeyoILQGEUt8Vg" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_mYtAk3PzEeyoILQGEUt8Vg" type="_mYqkUHPzEeyoILQGEUt8Vg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_mYtnoHPzEeyoILQGEUt8Vg" name="setUp" method="_mit4MHPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mYvc0HPzEeyoILQGEUt8Vg" name="tearDown"/>
+        <ownedOperation xmi:id="_mYxSAHPzEeyoILQGEUt8Vg" name="testDemonSlayerSedentaire" method="_mit4MXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mY1jcHPzEeyoILQGEUt8Vg" name="DemonVillageSteps">
+        <eAnnotations xmi:id="_mY2KgHPzEeyoILQGEUt8Vg" source="http://ns.yatta.de/umllab">
+          <contents xmi:type="ecore:EAnnotation" xmi:id="_mY2KgXPzEeyoILQGEUt8Vg" source="codegen">
+            <details xmi:id="_mY2KgnPzEeyoILQGEUt8Vg" key="codegenDirectory" value="/projet-maven/src/test/java"/>
+          </contents>
+        </eAnnotations>
+        <generalization xmi:id="_mg1o4HPzEeyoILQGEUt8Vg" general="_mZWg0XPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miTBcHPzEeyoILQGEUt8Vg" name="toto" visibility="private" type="_mggRsHPzEeyoILQGEUt8Vg" association="_mkG_UXPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miUPkHPzEeyoILQGEUt8Vg" name="konoha" visibility="private" type="_mgmYUXPzEeyoILQGEUt8Vg" association="_mkINcXPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miUPknPzEeyoILQGEUt8Vg" name="affichage" visibility="private" type="_mghf0HPzEeyoILQGEUt8Vg" association="_mkJbkXPzEeyoILQGEUt8Vg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_miufQHPzEeyoILQGEUt8Vg" name="un_demon_slayer_sedentaire" specification="_mY3YoHPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_miufQXPzEeyoILQGEUt8Vg" name="string">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>affichage = new AffichageVillage();&#xD;
+		konoha = new Village(affichage);&#xD;
+		konoha.setNomVillage(&quot;konoha&quot;);&#xD;
+		toto = new DemonSlayerSedentaire(konoha, string, 11, &quot;eau&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mivGUHPzEeyoILQGEUt8Vg" name="recuperer_le_nom_du_village_du_demon_slayer_sedentaire" specification="_mY5N0nPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>toto.getVillage().getNomVillage();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mivGUXPzEeyoILQGEUt8Vg" name="le_est_celui_qui_lui_est_attribue" specification="_mY7DAnPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mivGUnPzEeyoILQGEUt8Vg" name="string">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>assertEquals(toto.getVillage().getNomVillage(), string);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_mY3YoHPzEeyoILQGEUt8Vg" name="un_demon_slayer_sedentaire" method="_miufQHPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mY3YoXPzEeyoILQGEUt8Vg" name="string">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_mY5N0nPzEeyoILQGEUt8Vg" name="recuperer_le_nom_du_village_du_demon_slayer_sedentaire" method="_mivGUHPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mY7DAnPzEeyoILQGEUt8Vg" name="le_est_celui_qui_lui_est_attribue" method="_mivGUXPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mY7DA3PzEeyoILQGEUt8Vg" name="string">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mY-tYHPzEeyoILQGEUt8Vg" name="FusionSteps">
+        <eAnnotations xmi:id="_mY_UcHPzEeyoILQGEUt8Vg" source="http://ns.yatta.de/umllab">
+          <contents xmi:type="ecore:EAnnotation" xmi:id="_mY_UcXPzEeyoILQGEUt8Vg" source="codegen">
+            <details xmi:id="_mY_UcnPzEeyoILQGEUt8Vg" key="codegenDirectory" value="/projet-maven/src/test/java"/>
+          </contents>
+        </eAnnotations>
+        <generalization xmi:id="_mg4FIHPzEeyoILQGEUt8Vg" general="_mZbZUHPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miVdsHPzEeyoILQGEUt8Vg" name="toto" visibility="private" type="_mggRsHPzEeyoILQGEUt8Vg" association="_mkKpsXPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miWr0HPzEeyoILQGEUt8Vg" name="konoha" visibility="private" type="_mgmYUXPzEeyoILQGEUt8Vg" association="_mkL30HPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miXS4XPzEeyoILQGEUt8Vg" name="affichage" visibility="private" type="_mghf0HPzEeyoILQGEUt8Vg" association="_mkNtAXPzEeyoILQGEUt8Vg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mivtYHPzEeyoILQGEUt8Vg" name="le_village" specification="_mZAikHPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mivtYXPzEeyoILQGEUt8Vg" name="string">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>affichage = new AffichageVillage();&#xD;
+		konoha = new Village(affichage);&#xD;
+		konoha.setNbrHabitant(5000);&#xD;
+		konoha.setNbrMaison(2000);&#xD;
+		konoha.setNomVillage(string);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_miwUcHPzEeyoILQGEUt8Vg" name="ajouter_un_demon_slayer" specification="_mZCXwHPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>toto = new DemonSlayerSedentaire(konoha, &quot;toto&quot;, 11, &quot;eau&quot;);&#xD;
+		konoha.ajouterDemonSlayerSedentaire(toto);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_miwUcXPzEeyoILQGEUt8Vg" name="le_est_enregistre" specification="_mZDl4HPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_miwUcnPzEeyoILQGEUt8Vg" name="int1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>assertTrue(int1 == konoha.getNbrHabitant());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_mZAikHPzEeyoILQGEUt8Vg" name="le_village" method="_mivtYHPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mZAikXPzEeyoILQGEUt8Vg" name="string">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_mZCXwHPzEeyoILQGEUt8Vg" name="ajouter_un_demon_slayer" method="_miwUcHPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mZDl4HPzEeyoILQGEUt8Vg" name="le_est_enregistre" method="_miwUcXPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mZDl4XPzEeyoILQGEUt8Vg" name="int1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mjxBEHPzEeyoILQGEUt8Vg" name="" memberEnd="_mjxBEXPzEeyoILQGEUt8Vg _miFmEHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mjxBEXPzEeyoILQGEUt8Vg" name="" type="_mYXCUHPzEeyoILQGEUt8Vg" association="_mjxBEHPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mjyPMHPzEeyoILQGEUt8Vg" name="" memberEnd="_mjyPMXPzEeyoILQGEUt8Vg _miG0MXPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mjyPMXPzEeyoILQGEUt8Vg" name="" type="_mYXCUHPzEeyoILQGEUt8Vg" association="_mjyPMHPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mjzdUHPzEeyoILQGEUt8Vg" name="" memberEnd="_mjzdUXPzEeyoILQGEUt8Vg _miICUHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mjzdUXPzEeyoILQGEUt8Vg" name="" type="_mYXCUHPzEeyoILQGEUt8Vg" association="_mjzdUHPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mj0EYXPzEeyoILQGEUt8Vg" name="" memberEnd="_mj0EYnPzEeyoILQGEUt8Vg _miJQcHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mj0EYnPzEeyoILQGEUt8Vg" name="" type="_mYXCUHPzEeyoILQGEUt8Vg" association="_mj0EYXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mj1SgXPzEeyoILQGEUt8Vg" name="" memberEnd="_mj1SgnPzEeyoILQGEUt8Vg _miJ3gXPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mj1SgnPzEeyoILQGEUt8Vg" name="" type="_mYXCUHPzEeyoILQGEUt8Vg" association="_mj1SgXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mj2goHPzEeyoILQGEUt8Vg" name="" memberEnd="_mj2goXPzEeyoILQGEUt8Vg _miLFoHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mj2goXPzEeyoILQGEUt8Vg" name="" type="_mYXCUHPzEeyoILQGEUt8Vg" association="_mj2goHPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mj484XPzEeyoILQGEUt8Vg" name="" memberEnd="_mj484nPzEeyoILQGEUt8Vg _miLssHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mj484nPzEeyoILQGEUt8Vg" name="" type="_mYXCUHPzEeyoILQGEUt8Vg" association="_mj484XPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mj6LAXPzEeyoILQGEUt8Vg" name="" memberEnd="_mj6LAnPzEeyoILQGEUt8Vg _miMTwXPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mj6LAnPzEeyoILQGEUt8Vg" name="" type="_mYXCUHPzEeyoILQGEUt8Vg" association="_mj6LAXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mj8AMHPzEeyoILQGEUt8Vg" name="" memberEnd="_mj8AMXPzEeyoILQGEUt8Vg _miNh4HPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mj8AMXPzEeyoILQGEUt8Vg" name="" type="_mYiBcHPzEeyoILQGEUt8Vg" association="_mj8AMHPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mj9OUHPzEeyoILQGEUt8Vg" name="" memberEnd="_mj9OUXPzEeyoILQGEUt8Vg _miOI8XPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mj9OUXPzEeyoILQGEUt8Vg" name="" type="_mYiBcHPzEeyoILQGEUt8Vg" association="_mj9OUHPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mj_DgHPzEeyoILQGEUt8Vg" name="" memberEnd="_mj_DgXPzEeyoILQGEUt8Vg _miOwAXPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mj_DgXPzEeyoILQGEUt8Vg" name="" type="_mYiBcHPzEeyoILQGEUt8Vg" association="_mj_DgHPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mj_qkXPzEeyoILQGEUt8Vg" name="" memberEnd="_mj_qknPzEeyoILQGEUt8Vg _miP-IHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mj_qknPzEeyoILQGEUt8Vg" name="" type="_mYqkUHPzEeyoILQGEUt8Vg" association="_mj_qkXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkA4sXPzEeyoILQGEUt8Vg" name="" memberEnd="_mkA4snPzEeyoILQGEUt8Vg _miQlMXPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkA4snPzEeyoILQGEUt8Vg" name="" type="_mYqkUHPzEeyoILQGEUt8Vg" association="_mkA4sXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkDU8HPzEeyoILQGEUt8Vg" name="" memberEnd="_mkDU8XPzEeyoILQGEUt8Vg _miRMQXPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkDU8XPzEeyoILQGEUt8Vg" name="" type="_mYqkUHPzEeyoILQGEUt8Vg" association="_mkDU8HPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkFKIHPzEeyoILQGEUt8Vg" name="" memberEnd="_mkFKIXPzEeyoILQGEUt8Vg _miSaYHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkFKIXPzEeyoILQGEUt8Vg" name="" type="_mYqkUHPzEeyoILQGEUt8Vg" association="_mkFKIHPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkG_UXPzEeyoILQGEUt8Vg" name="" memberEnd="_mkG_UnPzEeyoILQGEUt8Vg _miTBcHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkG_UnPzEeyoILQGEUt8Vg" name="" type="_mY1jcHPzEeyoILQGEUt8Vg" association="_mkG_UXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkINcXPzEeyoILQGEUt8Vg" name="" memberEnd="_mkINcnPzEeyoILQGEUt8Vg _miUPkHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkINcnPzEeyoILQGEUt8Vg" name="" type="_mY1jcHPzEeyoILQGEUt8Vg" association="_mkINcXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkJbkXPzEeyoILQGEUt8Vg" name="" memberEnd="_mkJbknPzEeyoILQGEUt8Vg _miUPknPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkJbknPzEeyoILQGEUt8Vg" name="" type="_mY1jcHPzEeyoILQGEUt8Vg" association="_mkJbkXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkKpsXPzEeyoILQGEUt8Vg" name="" memberEnd="_mkKpsnPzEeyoILQGEUt8Vg _miVdsHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkKpsnPzEeyoILQGEUt8Vg" name="" type="_mY-tYHPzEeyoILQGEUt8Vg" association="_mkKpsXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkL30HPzEeyoILQGEUt8Vg" name="" memberEnd="_mkL30XPzEeyoILQGEUt8Vg _miWr0HPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkL30XPzEeyoILQGEUt8Vg" name="" type="_mY-tYHPzEeyoILQGEUt8Vg" association="_mkL30HPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkNtAXPzEeyoILQGEUt8Vg" name="" memberEnd="_mkNtAnPzEeyoILQGEUt8Vg _miXS4XPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkNtAnPzEeyoILQGEUt8Vg" name="" type="_mY-tYHPzEeyoILQGEUt8Vg" association="_mkNtAXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_mV-csHPzEeyoILQGEUt8Vg" name="villageTest">
+      <packagedElement xmi:type="uml:Class" xmi:id="_mZj8MHPzEeyoILQGEUt8Vg" name="ChefVillageTest">
+        <eAnnotations xmi:id="_mZj8MXPzEeyoILQGEUt8Vg" source="http://ns.yatta.de/umllab">
+          <contents xmi:type="ecore:EAnnotation" xmi:id="_mZj8MnPzEeyoILQGEUt8Vg" source="codegen">
+            <details xmi:id="_mZj8M3PzEeyoILQGEUt8Vg" key="codegenDirectory" value="/projet-maven/src/test/java"/>
+          </contents>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_miYhAHPzEeyoILQGEUt8Vg" name="suna" visibility="private" type="_mgmYUXPzEeyoILQGEUt8Vg" association="_mkPiMXPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miZvIHPzEeyoILQGEUt8Vg" name="kazekage" visibility="private" type="_mhB2IHPzEeyoILQGEUt8Vg" association="_mkQwUHPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_miaWMXPzEeyoILQGEUt8Vg" name="affichage" visibility="private" type="_mghf0HPzEeyoILQGEUt8Vg" association="_mkR-cXPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_mjIH6HPzEeyoILQGEUt8Vg" name="oto" visibility="private" type="_mgmYUXPzEeyoILQGEUt8Vg" association="_mkcWgXPzEeyoILQGEUt8Vg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_miyJoHPzEeyoILQGEUt8Vg" name="setUp" specification="_mZlKUHPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>affichage= new AffichageVillage();&#xD;
+		suna = new Village(affichage);&#xD;
+		suna.setNbrHabitant(5000);&#xD;
+		suna.setNbrMaison(2000);&#xD;
+		suna.setNomVillage(&quot;suna&quot;);&#xD;
+		kazekage = new ChefVillage(&quot;kazekage&quot;, suna);&#xD;
+&#xD;
+		oto = new Village(affichage);&#xD;
+		oto.setNbrHabitant(200);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_miywsHPzEeyoILQGEUt8Vg" name="testTuerTraitre" specification="_mZnmkXPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>kazekage.tuerTraitre();&#xD;
+		assertEquals(4999, suna.getNbrHabitant());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_miywsXPzEeyoILQGEUt8Vg" name="testSetNomChef" specification="_mZoNonPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>kazekage.setNomChef(&quot;Gaara&quot;);&#xD;
+		assertEquals(kazekage.getNomChef(), &quot;Gaara&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_miywsnPzEeyoILQGEUt8Vg" name="testGetNomChef" specification="_mZpbwHPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>assertEquals(kazekage.getNomChef(), &quot;kazekage&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_miyws3PzEeyoILQGEUt8Vg" name="testAttaquerVillage" specification="_mZqC0nPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>suna.declarerGuerre(oto);&#xD;
+		kazekage.attaquerVillage(oto);&#xD;
+		assertTrue(kazekage.getListVillageConquis().contains(oto));&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_mZlKUHPzEeyoILQGEUt8Vg" name="setUp" method="_miyJoHPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mZmYcnPzEeyoILQGEUt8Vg" name="tearDown"/>
+        <ownedOperation xmi:id="_mZnmkXPzEeyoILQGEUt8Vg" name="testTuerTraitre" method="_miywsHPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mZoNonPzEeyoILQGEUt8Vg" name="testSetNomChef" method="_miywsXPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mZpbwHPzEeyoILQGEUt8Vg" name="testGetNomChef" method="_miywsnPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mZqC0nPzEeyoILQGEUt8Vg" name="testAttaquerVillage" method="_miyws3PzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mZviYHPzEeyoILQGEUt8Vg" name="ConstruireSteps">
+        <eAnnotations xmi:id="_mZwJcHPzEeyoILQGEUt8Vg" source="http://ns.yatta.de/umllab">
+          <contents xmi:type="ecore:EAnnotation" xmi:id="_mZwJcXPzEeyoILQGEUt8Vg" source="codegen">
+            <details xmi:id="_mZwJcnPzEeyoILQGEUt8Vg" key="codegenDirectory" value="/projet-maven/src/test/java"/>
+          </contents>
+        </eAnnotations>
+        <generalization xmi:id="_mhE5cHPzEeyoILQGEUt8Vg" general="_mZUEkHPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_micLYHPzEeyoILQGEUt8Vg" name="village" visibility="private" type="_mgmYUXPzEeyoILQGEUt8Vg" association="_mkSlgXPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_midZgXPzEeyoILQGEUt8Vg" name="affichage" visibility="private" type="_mghf0HPzEeyoILQGEUt8Vg" association="_mkTzoXPzEeyoILQGEUt8Vg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mizXwHPzEeyoILQGEUt8Vg" name="le_village" specification="_mZxXkHPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mizXwXPzEeyoILQGEUt8Vg" name="string">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>affichage = new AffichageVillage();&#xD;
+		village = new Village(affichage);&#xD;
+		village.setNomVillage(string);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_miz-0HPzEeyoILQGEUt8Vg" name="le_village_a_maisons" specification="_mZzz0XPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_miz-0XPzEeyoILQGEUt8Vg" name="int1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>village.setNbrMaison(int1);&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_miz-0nPzEeyoILQGEUt8Vg" name="une_maison_est_construite" specification="_mZ23IHPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>village.construireMaison();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi0l4HPzEeyoILQGEUt8Vg" name="le_enregistre" specification="_mZ5TYHPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mi0l4XPzEeyoILQGEUt8Vg" name="int1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>assertTrue(int1 == village.getNbrMaison());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_mZxXkHPzEeyoILQGEUt8Vg" name="le_village" method="_mizXwHPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mZxXkXPzEeyoILQGEUt8Vg" name="string">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_mZzz0XPzEeyoILQGEUt8Vg" name="le_village_a_maisons" method="_miz-0HPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mZzz0nPzEeyoILQGEUt8Vg" name="int1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_mZ23IHPzEeyoILQGEUt8Vg" name="une_maison_est_construite" method="_miz-0nPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mZ5TYHPzEeyoILQGEUt8Vg" name="le_enregistre" method="_mi0l4HPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mZ5TYXPzEeyoILQGEUt8Vg" name="int1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mZ8WsHPzEeyoILQGEUt8Vg" name="NinjaTest">
+        <eAnnotations xmi:id="_mZ89wHPzEeyoILQGEUt8Vg" source="http://ns.yatta.de/umllab">
+          <contents xmi:type="ecore:EAnnotation" xmi:id="_mZ89wXPzEeyoILQGEUt8Vg" source="codegen">
+            <details xmi:id="_mZ9k0HPzEeyoILQGEUt8Vg" key="codegenDirectory" value="/projet-maven/src/test/java"/>
+          </contents>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_mienoHPzEeyoILQGEUt8Vg" name="konoha" visibility="private" type="_mgmYUXPzEeyoILQGEUt8Vg" association="_mkVBwXPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_mifOsHPzEeyoILQGEUt8Vg" name="affichage" visibility="private" type="_mghf0HPzEeyoILQGEUt8Vg" association="_mkW28XPzEeyoILQGEUt8Vg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi1M8HPzEeyoILQGEUt8Vg" name="setUp" specification="_mZ-L4HPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>affichage = new AffichageNinja();
+		konoha = new Village(affichage);
+		konoha.setNbrHabitant(5000);
+		konoha.setNbrMaison(2000);
+		konoha.setNomVillage(&quot;konoha&quot;);
+
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi10AHPzEeyoILQGEUt8Vg" name="testDefendreVillage" specification="_maBPMnPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>Ninja naruto = new Ninja(&quot;Naruto&quot;, konoha);
+		assertTrue(naruto.defendreVillage());
+		naruto.setNom(&quot;Naruto Uzumaki&quot;);
+		assertEquals(&quot;Naruto Uzumaki&quot;, naruto.getNom());
+		assertEquals(konoha, naruto.getVillage());
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_mZ-L4HPzEeyoILQGEUt8Vg" name="setUp" method="_mi1M8HPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mZ-y8nPzEeyoILQGEUt8Vg" name="tearDown"/>
+        <ownedOperation xmi:id="_maBPMnPzEeyoILQGEUt8Vg" name="testDefendreVillage" method="_mi10AHPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_maESgHPzEeyoILQGEUt8Vg" name="TuerTraitreSteps">
+        <eAnnotations xmi:id="_maESgXPzEeyoILQGEUt8Vg" source="http://ns.yatta.de/umllab">
+          <contents xmi:type="ecore:EAnnotation" xmi:id="_maESgnPzEeyoILQGEUt8Vg" source="codegen">
+            <details xmi:id="_maE5kHPzEeyoILQGEUt8Vg" key="codegenDirectory" value="/projet-maven/src/test/java"/>
+          </contents>
+        </eAnnotations>
+        <generalization xmi:id="_mhIj0HPzEeyoILQGEUt8Vg" general="_mZgR1HPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_mif1wHPzEeyoILQGEUt8Vg" name="village" visibility="private" type="_mgmYUXPzEeyoILQGEUt8Vg" association="_mkXeAXPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_migc0HPzEeyoILQGEUt8Vg" name="chef" visibility="private" type="_mhB2IHPzEeyoILQGEUt8Vg" association="_mkYsIXPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_migc0nPzEeyoILQGEUt8Vg" name="affichage" visibility="private" type="_mghf0HPzEeyoILQGEUt8Vg" association="_mkZTMXPzEeyoILQGEUt8Vg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi2bEHPzEeyoILQGEUt8Vg" name="un_village" specification="_maFgoHPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mi2bEXPzEeyoILQGEUt8Vg" name="string">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>affichage = new AffichageVillage();&#xD;
+		this.village = new Village(affichage);&#xD;
+		this.village.setNomVillage(string);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi3CIHPzEeyoILQGEUt8Vg" name="le_village_a_habitants" specification="_maGuwHPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mi3CIXPzEeyoILQGEUt8Vg" name="int1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>village.setNbrHabitant(int1);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi3CInPzEeyoILQGEUt8Vg" name="un_traitre_est_tue" specification="_maH843PzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>chef = new ChefVillage(&quot;Konoha&quot;, village);&#xD;
+		this.chef.tuerTraitre();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi3CI3PzEeyoILQGEUt8Vg" name="le_est_enregistre" specification="_maJLAHPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mi3CJHPzEeyoILQGEUt8Vg" name="int1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>assertTrue(int1 == this.village.getNbrHabitant());&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_maFgoHPzEeyoILQGEUt8Vg" name="un_village" method="_mi2bEHPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_maFgoXPzEeyoILQGEUt8Vg" name="string">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_maGuwHPzEeyoILQGEUt8Vg" name="le_village_a_habitants" method="_mi3CIHPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_maGuwXPzEeyoILQGEUt8Vg" name="int1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_maH843PzEeyoILQGEUt8Vg" name="un_traitre_est_tue" method="_mi3CInPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_maJLAHPzEeyoILQGEUt8Vg" name="le_est_enregistre" method="_mi3CI3PzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_maJyEHPzEeyoILQGEUt8Vg" name="int1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_maOqkHPzEeyoILQGEUt8Vg" name="VillageTest">
+        <eAnnotations xmi:id="_maPRoHPzEeyoILQGEUt8Vg" source="http://ns.yatta.de/umllab">
+          <contents xmi:type="ecore:EAnnotation" xmi:id="_maPRoXPzEeyoILQGEUt8Vg" source="codegen">
+            <details xmi:id="_maPRonPzEeyoILQGEUt8Vg" key="codegenDirectory" value="/projet-maven/src/test/java"/>
+          </contents>
+        </eAnnotations>
+        <ownedAttribute xmi:id="_mihq8HPzEeyoILQGEUt8Vg" name="konoha" visibility="private" type="_mgmYUXPzEeyoILQGEUt8Vg" association="_mkahUXPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_mikHMHPzEeyoILQGEUt8Vg" name="affichageVillage" visibility="private" type="_mghf0HPzEeyoILQGEUt8Vg" association="_mkbIYXPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_mjJ9FHPzEeyoILQGEUt8Vg" name="suna" visibility="private" type="_mgmYUXPzEeyoILQGEUt8Vg" association="_mkdkoXPzEeyoILQGEUt8Vg"/>
+        <ownedAttribute xmi:id="_mjKkInPzEeyoILQGEUt8Vg" name="oto" visibility="private" type="_mgmYUXPzEeyoILQGEUt8Vg" association="_mkeywHPzEeyoILQGEUt8Vg"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi4QQHPzEeyoILQGEUt8Vg" name="setUp" specification="_maQfwHPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>affichageVillage = new AffichageVillage();
+
+		konoha = new Village(affichageVillage);
+		konoha.setNbrHabitant(5000);
+		konoha.setNbrMaison(2000);
+		konoha.setNomVillage(&quot;konoha&quot;);
+
+		oto = new Village(affichageVillage);
+		oto.setNbrHabitant(200);
+		oto.setNbrMaison(100);
+		oto.setNomVillage(&quot;oto&quot;);
+
+		suna = new Village(affichageVillage);
+		suna.setNbrHabitant(1000);
+		suna.setNbrMaison(700);
+		suna.setNomVillage(&quot;suna&quot;);
+
+		konoha.addAllianceVillage(suna);
+		konoha.declarerGuerre(oto);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi4QQXPzEeyoILQGEUt8Vg" name="testConstruire" specification="_maS8AnPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>assertEquals(2000, konoha.getNbrMaison());
+		konoha.construireMaison();
+		assertEquals(2001, konoha.getNbrMaison());
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi4QQnPzEeyoILQGEUt8Vg" name="testDetruire" specification="_maTjEnPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>assertEquals(2000, konoha.getNbrMaison());
+		konoha.detruireMaison();
+		assertEquals(1999, konoha.getNbrMaison());
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi4QQ3PzEeyoILQGEUt8Vg" name="testGetNomVillage" specification="_maWmYnPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>assertEquals(konoha.getNomVillage(), &quot;konoha&quot;);
+
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi43UHPzEeyoILQGEUt8Vg" name="testGetNbrHabitants" specification="_maYbkXPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>assertEquals(konoha.getNbrHabitant(), 5000);
+
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi43UXPzEeyoILQGEUt8Vg" name="testGetNbrMaison" specification="_maZConPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>assertEquals(konoha.getNbrMaison(), 2000);
+
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi43UnPzEeyoILQGEUt8Vg" name="testSetNomVillage" specification="_mactAHPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>konoha.setNomVillage(&quot;Feu&quot;);
+		assertEquals(konoha.getNomVillage(), &quot;Feu&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi43U3PzEeyoILQGEUt8Vg" name="testSetNbrHabitant" specification="_madUEnPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>konoha.setNbrHabitant(6000);
+		assertEquals(konoha.getNbrHabitant(), 6000);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi43VHPzEeyoILQGEUt8Vg" name="testSetNbrMaison" specification="_mad7InPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>konoha.setNbrMaison(2500);
+		assertEquals(konoha.getNbrMaison(), 2500);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi5eYHPzEeyoILQGEUt8Vg" name="testAlliance" specification="_maeiMnPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>konoha.addAllianceVillage(suna);
+		containsIn(konoha.getAllies(), suna);
+		konoha.addAllianceVillage(oto);
+		containsIn(konoha.getAllies(), oto);
+
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi5eYXPzEeyoILQGEUt8Vg" name="containsIn" specification="_mh1ucHPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mi5eYnPzEeyoILQGEUt8Vg" name="listVillage" type="_mhJx8HPzEeyoILQGEUt8Vg"/>
+          <ownedParameter xmi:id="_mi5eY3PzEeyoILQGEUt8Vg" name="village" type="_mgmYUXPzEeyoILQGEUt8Vg"/>
+          <language>java</language>
+          <body>assertTrue(listVillage.contains(village));
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi5eZHPzEeyoILQGEUt8Vg" name="testDeclarerGuerre" specification="_mafwUnPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>konoha.declarerGuerre(oto);
+		containsIn(konoha.getEnnemis(), oto);
+		konoha.declarerGuerre(suna);
+		containsIn(konoha.getEnnemis(), suna);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi6FcHPzEeyoILQGEUt8Vg" name="testRetirerAlliance" specification="_mag-cnPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>konoha.retirerAlliance(suna);
+		doNotContains(konoha.getAllies(), suna);
+		konoha.retirerAlliance(oto);
+		doNotContains(konoha.getAllies(), oto);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi6FcXPzEeyoILQGEUt8Vg" name="doNotContains" specification="_mh3joHPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mi6FcnPzEeyoILQGEUt8Vg" name="listVillage" type="_mhJx8HPzEeyoILQGEUt8Vg"/>
+          <ownedParameter xmi:id="_mi6Fc3PzEeyoILQGEUt8Vg" name="village" type="_mgmYUXPzEeyoILQGEUt8Vg"/>
+          <language>java</language>
+          <body>assertEquals(false, (listVillage).contains(village));
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mi6sgHPzEeyoILQGEUt8Vg" name="testRetirerEnnemis" specification="_mazSUHPzEeyoILQGEUt8Vg">
+          <language>java</language>
+          <body>konoha.retirerEnnemi(suna);
+		doNotContains(konoha.getEnnemis(), suna);
+		konoha.retirerEnnemi(oto);
+		doNotContains(konoha.getEnnemis(), oto);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_maQfwHPzEeyoILQGEUt8Vg" name="setUp" method="_mi4QQHPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_maSU8XPzEeyoILQGEUt8Vg" name="tearDown"/>
+        <ownedOperation xmi:id="_maS8AnPzEeyoILQGEUt8Vg" name="testConstruire" method="_mi4QQXPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_maTjEnPzEeyoILQGEUt8Vg" name="testDetruire" method="_mi4QQnPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_maWmYnPzEeyoILQGEUt8Vg" name="testGetNomVillage" method="_mi4QQ3PzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_maYbkXPzEeyoILQGEUt8Vg" name="testGetNbrHabitants" method="_mi43UHPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_maZConPzEeyoILQGEUt8Vg" name="testGetNbrMaison" method="_mi43UXPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mactAHPzEeyoILQGEUt8Vg" name="testSetNomVillage" method="_mi43UnPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_madUEnPzEeyoILQGEUt8Vg" name="testSetNbrHabitant" method="_mi43U3PzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mad7InPzEeyoILQGEUt8Vg" name="testSetNbrMaison" method="_mi43VHPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_maeiMnPzEeyoILQGEUt8Vg" name="testAlliance" method="_mi5eYHPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mafwUnPzEeyoILQGEUt8Vg" name="testDeclarerGuerre" method="_mi5eZHPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mag-cnPzEeyoILQGEUt8Vg" name="testRetirerAlliance" method="_mi6FcHPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mazSUHPzEeyoILQGEUt8Vg" name="testRetirerEnnemis" method="_mi6sgHPzEeyoILQGEUt8Vg"/>
+        <ownedOperation xmi:id="_mh1ucHPzEeyoILQGEUt8Vg" name="containsIn" method="_mi5eYXPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mh1ucXPzEeyoILQGEUt8Vg" name="listVillage" type="_mhJx8HPzEeyoILQGEUt8Vg"/>
+          <ownedParameter xmi:id="_mh2VgHPzEeyoILQGEUt8Vg" name="village" type="_mgmYUXPzEeyoILQGEUt8Vg"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_mh3joHPzEeyoILQGEUt8Vg" name="doNotContains" method="_mi6FcXPzEeyoILQGEUt8Vg">
+          <ownedParameter xmi:id="_mh4KsHPzEeyoILQGEUt8Vg" name="listVillage" type="_mhJx8HPzEeyoILQGEUt8Vg"/>
+          <ownedParameter xmi:id="_mh4KsXPzEeyoILQGEUt8Vg" name="village" type="_mgmYUXPzEeyoILQGEUt8Vg"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkPiMXPzEeyoILQGEUt8Vg" name="" memberEnd="_mkPiMnPzEeyoILQGEUt8Vg _miYhAHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkPiMnPzEeyoILQGEUt8Vg" name="" type="_mZj8MHPzEeyoILQGEUt8Vg" association="_mkPiMXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkQwUHPzEeyoILQGEUt8Vg" name="" memberEnd="_mkQwUXPzEeyoILQGEUt8Vg _miZvIHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkQwUXPzEeyoILQGEUt8Vg" name="" type="_mZj8MHPzEeyoILQGEUt8Vg" association="_mkQwUHPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkR-cXPzEeyoILQGEUt8Vg" name="" memberEnd="_mkR-cnPzEeyoILQGEUt8Vg _miaWMXPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkR-cnPzEeyoILQGEUt8Vg" name="" type="_mZj8MHPzEeyoILQGEUt8Vg" association="_mkR-cXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkSlgXPzEeyoILQGEUt8Vg" name="" memberEnd="_mkSlgnPzEeyoILQGEUt8Vg _micLYHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkSlgnPzEeyoILQGEUt8Vg" name="" type="_mZviYHPzEeyoILQGEUt8Vg" association="_mkSlgXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkTzoXPzEeyoILQGEUt8Vg" name="" memberEnd="_mkTzonPzEeyoILQGEUt8Vg _midZgXPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkTzonPzEeyoILQGEUt8Vg" name="" type="_mZviYHPzEeyoILQGEUt8Vg" association="_mkTzoXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkVBwXPzEeyoILQGEUt8Vg" name="" memberEnd="_mkVBwnPzEeyoILQGEUt8Vg _mienoHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkVBwnPzEeyoILQGEUt8Vg" name="" type="_mZ8WsHPzEeyoILQGEUt8Vg" association="_mkVBwXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkW28XPzEeyoILQGEUt8Vg" name="" memberEnd="_mkW28nPzEeyoILQGEUt8Vg _mifOsHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkW28nPzEeyoILQGEUt8Vg" name="" type="_mZ8WsHPzEeyoILQGEUt8Vg" association="_mkW28XPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkXeAXPzEeyoILQGEUt8Vg" name="" memberEnd="_mkXeAnPzEeyoILQGEUt8Vg _mif1wHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkXeAnPzEeyoILQGEUt8Vg" name="" type="_maESgHPzEeyoILQGEUt8Vg" association="_mkXeAXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkYsIXPzEeyoILQGEUt8Vg" name="" memberEnd="_mkYsInPzEeyoILQGEUt8Vg _migc0HPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkYsInPzEeyoILQGEUt8Vg" name="" type="_maESgHPzEeyoILQGEUt8Vg" association="_mkYsIXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkZTMXPzEeyoILQGEUt8Vg" name="" memberEnd="_mkZTMnPzEeyoILQGEUt8Vg _migc0nPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkZTMnPzEeyoILQGEUt8Vg" name="" type="_maESgHPzEeyoILQGEUt8Vg" association="_mkZTMXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkahUXPzEeyoILQGEUt8Vg" name="" memberEnd="_mkahUnPzEeyoILQGEUt8Vg _mihq8HPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkahUnPzEeyoILQGEUt8Vg" name="" type="_maOqkHPzEeyoILQGEUt8Vg" association="_mkahUXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkbIYXPzEeyoILQGEUt8Vg" name="" memberEnd="_mkbIYnPzEeyoILQGEUt8Vg _mikHMHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkbIYnPzEeyoILQGEUt8Vg" name="" type="_maOqkHPzEeyoILQGEUt8Vg" association="_mkbIYXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkcWgXPzEeyoILQGEUt8Vg" name="" memberEnd="_mkcWgnPzEeyoILQGEUt8Vg _mjIH6HPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkcWgnPzEeyoILQGEUt8Vg" name="" type="_mZj8MHPzEeyoILQGEUt8Vg" association="_mkcWgXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkdkoXPzEeyoILQGEUt8Vg" name="" memberEnd="_mkdkonPzEeyoILQGEUt8Vg _mjJ9FHPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkdkonPzEeyoILQGEUt8Vg" name="" type="_maOqkHPzEeyoILQGEUt8Vg" association="_mkdkoXPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mkeywHPzEeyoILQGEUt8Vg" name="" memberEnd="_mkeywXPzEeyoILQGEUt8Vg _mjKkInPzEeyoILQGEUt8Vg">
+        <ownedEnd xmi:id="_mkeywXPzEeyoILQGEUt8Vg" name="" type="_maOqkHPzEeyoILQGEUt8Vg" association="_mkeywHPzEeyoILQGEUt8Vg"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_mWUa8HPzEeyoILQGEUt8Vg" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_mWVCAHPzEeyoILQGEUt8Vg" name="util">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_mhJx8HPzEeyoILQGEUt8Vg" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_lzsPAHPzEeyoILQGEUt8Vg">
+      <eAnnotations xmi:id="_lzs2EHPzEeyoILQGEUt8Vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_lztdIHPzEeyoILQGEUt8Vg" base_Package="_lmQ3AHPzEeyoILQGEUt8Vg">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mXVuoHPzEeyoILQGEUt8Vg" base_Element="_mXPoAHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mXsT8HPzEeyoILQGEUt8Vg" base_Element="_mXrs4HPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mXuJIHPzEeyoILQGEUt8Vg" base_Element="_mXrs4HPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mX020HPzEeyoILQGEUt8Vg" name="Before"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mX1d4XPzEeyoILQGEUt8Vg" base_Element="_mX1d4HPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mX2E8HPzEeyoILQGEUt8Vg" base_Element="_mX1d4HPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mX2E8XPzEeyoILQGEUt8Vg" name="After"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYEucHPzEeyoILQGEUt8Vg" base_Element="_mX2E8nPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYEucXPzEeyoILQGEUt8Vg" base_Element="_mX2E8nPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYEucnPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYFVgXPzEeyoILQGEUt8Vg" base_Element="_mYFVgHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYF8kHPzEeyoILQGEUt8Vg" base_Element="_mYFVgHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYF8kXPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYGjoHPzEeyoILQGEUt8Vg" base_Element="_mYF8knPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYHKsHPzEeyoILQGEUt8Vg" base_Element="_mYF8knPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYHKsXPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYIY0HPzEeyoILQGEUt8Vg" base_Element="_mYHKsnPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYI_4HPzEeyoILQGEUt8Vg" base_Element="_mYHKsnPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYI_4XPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYJm8XPzEeyoILQGEUt8Vg" base_Element="_mYJm8HPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYKOAHPzEeyoILQGEUt8Vg" base_Element="_mYJm8HPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYKOAXPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYK1EXPzEeyoILQGEUt8Vg" base_Element="_mYK1EHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYLcIHPzEeyoILQGEUt8Vg" base_Element="_mYK1EHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYLcIXPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYPtkHPzEeyoILQGEUt8Vg" base_Element="_mYPGgHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYQUoHPzEeyoILQGEUt8Vg" base_Element="_mYPGgHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYQUoXPzEeyoILQGEUt8Vg" name="Given">
+      <annotationParameters xmi:id="_mYQ7sHPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mi-W4HPzEeyoILQGEUt8Vg" value="&quot;un demon slayer {string}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYSJ0HPzEeyoILQGEUt8Vg" base_Element="_mYRiwHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYSJ0XPzEeyoILQGEUt8Vg" base_Element="_mYRiwHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYSw4HPzEeyoILQGEUt8Vg" name="Given">
+      <annotationParameters xmi:id="_mYSw4XPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mi-98HPzEeyoILQGEUt8Vg" value="&quot;avec un grade {string}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYTX8HPzEeyoILQGEUt8Vg" base_Element="_mYSw4nPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYTX8XPzEeyoILQGEUt8Vg" base_Element="_mYSw4nPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYTX8nPzEeyoILQGEUt8Vg" name="When">
+      <annotationParameters xmi:id="_mYTX83PzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mi-98XPzEeyoILQGEUt8Vg" value="&quot;je recupere mon niveau de puissance&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYUmEHPzEeyoILQGEUt8Vg" base_Element="_mYT_AHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYVNIHPzEeyoILQGEUt8Vg" base_Element="_mYT_AHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYVNIXPzEeyoILQGEUt8Vg" name="Then">
+      <annotationParameters xmi:id="_mYVNInPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mi-98nPzEeyoILQGEUt8Vg" value="&quot;Le niveau de puissance {int} est affecte&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYaFoHPzEeyoILQGEUt8Vg" base_Element="_mYZekHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYaFoXPzEeyoILQGEUt8Vg" base_Element="_mYZekHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYassHPzEeyoILQGEUt8Vg" name="Before"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYbTwHPzEeyoILQGEUt8Vg" base_Element="_mYassXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYbTwXPzEeyoILQGEUt8Vg" base_Element="_mYassXPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYbTwnPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYch4HPzEeyoILQGEUt8Vg" base_Element="_mYb60HPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYdI8HPzEeyoILQGEUt8Vg" base_Element="_mYb60HPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYdI8XPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYdwAHPzEeyoILQGEUt8Vg" base_Element="_mYdI8nPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYeXEHPzEeyoILQGEUt8Vg" base_Element="_mYdI8nPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYeXEXPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYj2oXPzEeyoILQGEUt8Vg" base_Element="_mYj2oHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYkdsHPzEeyoILQGEUt8Vg" base_Element="_mYj2oHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYkdsXPzEeyoILQGEUt8Vg" name="Given">
+      <annotationParameters xmi:id="_mYkdsnPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mi_lAHPzEeyoILQGEUt8Vg" value="&quot;un demon slayer sedentaire&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYlEwXPzEeyoILQGEUt8Vg" base_Element="_mYlEwHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYlr0HPzEeyoILQGEUt8Vg" base_Element="_mYlEwHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYlr0XPzEeyoILQGEUt8Vg" name="When">
+      <annotationParameters xmi:id="_mYmS4HPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mi_lAXPzEeyoILQGEUt8Vg" value="&quot;recupere son nom&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYm58HPzEeyoILQGEUt8Vg" base_Element="_mYmS4XPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYm58XPzEeyoILQGEUt8Vg" base_Element="_mYmS4XPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYnhAHPzEeyoILQGEUt8Vg" name="Then">
+      <annotationParameters xmi:id="_mYnhAXPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mi_lAnPzEeyoILQGEUt8Vg" value="&quot;son nom correspond bien&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYtAknPzEeyoILQGEUt8Vg" base_Element="_mYsZgHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYtnoXPzEeyoILQGEUt8Vg" base_Element="_mYtnoHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYu1wHPzEeyoILQGEUt8Vg" base_Element="_mYtnoHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYu1wXPzEeyoILQGEUt8Vg" name="Before"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYwq8HPzEeyoILQGEUt8Vg" base_Element="_mYvc0HPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYwq8XPzEeyoILQGEUt8Vg" base_Element="_mYvc0HPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYwq8nPzEeyoILQGEUt8Vg" name="After"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mYxSAXPzEeyoILQGEUt8Vg" base_Element="_mYxSAHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mYx5EHPzEeyoILQGEUt8Vg" base_Element="_mYxSAHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mYx5EXPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mY3_sHPzEeyoILQGEUt8Vg" base_Element="_mY3YoHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mY4mwHPzEeyoILQGEUt8Vg" base_Element="_mY3YoHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mY5N0HPzEeyoILQGEUt8Vg" name="Given">
+      <annotationParameters xmi:id="_mY5N0XPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjAMEHPzEeyoILQGEUt8Vg" value="&quot;un demon slayer sedentaire {string}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mY504HPzEeyoILQGEUt8Vg" base_Element="_mY5N0nPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mY6b8HPzEeyoILQGEUt8Vg" base_Element="_mY5N0nPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mY7DAHPzEeyoILQGEUt8Vg" name="When">
+      <annotationParameters xmi:id="_mY7DAXPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjAMEXPzEeyoILQGEUt8Vg" value="&quot;recuperer le nom du village du demon slayer sedentaire&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mY7qEHPzEeyoILQGEUt8Vg" base_Element="_mY7DAnPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mY8RIHPzEeyoILQGEUt8Vg" base_Element="_mY7DAnPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mY8RIXPzEeyoILQGEUt8Vg" name="Then">
+      <annotationParameters xmi:id="_mY84MHPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjAMEnPzEeyoILQGEUt8Vg" value="&quot;le {string} est celui qui lui est attribue&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZBJoHPzEeyoILQGEUt8Vg" base_Element="_mZAikHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZBwsHPzEeyoILQGEUt8Vg" base_Element="_mZAikHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZBwsXPzEeyoILQGEUt8Vg" name="Given">
+      <annotationParameters xmi:id="_mZBwsnPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjCBQHPzEeyoILQGEUt8Vg" value="&quot;le village {string}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZCXwXPzEeyoILQGEUt8Vg" base_Element="_mZCXwHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZC-0HPzEeyoILQGEUt8Vg" base_Element="_mZCXwHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZC-0XPzEeyoILQGEUt8Vg" name="When">
+      <annotationParameters xmi:id="_mZC-0nPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjCoUHPzEeyoILQGEUt8Vg" value="&quot;ajouter un demon slayer&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZEM8HPzEeyoILQGEUt8Vg" base_Element="_mZDl4HPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZE0AHPzEeyoILQGEUt8Vg" base_Element="_mZDl4HPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZE0AXPzEeyoILQGEUt8Vg" name="Then">
+      <annotationParameters xmi:id="_mZE0AnPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjCoUXPzEeyoILQGEUt8Vg" value="&quot;le {int} est enregistre&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZRoUHPzEeyoILQGEUt8Vg" base_Element="_mZPzIHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZS2cHPzEeyoILQGEUt8Vg" base_Element="_mZPzIHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZS2cXPzEeyoILQGEUt8Vg" name="RunWith">
+      <annotationParameters xmi:id="_mZTdgHPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjCoUnPzEeyoILQGEUt8Vg" value="Cucumber.class"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_mZTdgXPzEeyoILQGEUt8Vg" name="CucumberOptions">
+      <annotationParameters xmi:id="_mZTdgnPzEeyoILQGEUt8Vg" name="features">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjCoU3PzEeyoILQGEUt8Vg" value="&quot;src/test/resources/dojo/AfficherNom.feature&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZTdg3PzEeyoILQGEUt8Vg" name="glue">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjCoVHPzEeyoILQGEUt8Vg" value="&quot;fusion&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZTdhHPzEeyoILQGEUt8Vg" name="plugin">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjCoVXPzEeyoILQGEUt8Vg" value="&quot;pretty&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjCoVnPzEeyoILQGEUt8Vg" value="&quot;json:target/cucumber-reports/cucumber.json&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjDPYHPzEeyoILQGEUt8Vg" value="&quot;html:target/cucumber-reports/index.html&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjDPYXPzEeyoILQGEUt8Vg" value="&quot;pretty:target/cucumber-reports/cucumber-pretty.txt&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjDPYnPzEeyoILQGEUt8Vg" value="&quot;usage:target/cucumber-reports/cucumber-usage.json&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjDPY3PzEeyoILQGEUt8Vg" value="&quot;junit:target/cucumber-reports/cucumber-results.xml&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZTdhXPzEeyoILQGEUt8Vg" name="strict" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjDPZHPzEeyoILQGEUt8Vg" value="true"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZTdhnPzEeyoILQGEUt8Vg" name="monochrome" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjDPZXPzEeyoILQGEUt8Vg" value="true"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZTdh3PzEeyoILQGEUt8Vg" name="dryRun" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjD2cHPzEeyoILQGEUt8Vg" value="false"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZVSsHPzEeyoILQGEUt8Vg" base_Element="_mZUEkHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZV5wHPzEeyoILQGEUt8Vg" base_Element="_mZUEkHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZV5wXPzEeyoILQGEUt8Vg" name="RunWith">
+      <annotationParameters xmi:id="_mZV5wnPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjD2cXPzEeyoILQGEUt8Vg" value="Cucumber.class"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_mZV5w3PzEeyoILQGEUt8Vg" name="CucumberOptions">
+      <annotationParameters xmi:id="_mZV5xHPzEeyoILQGEUt8Vg" name="features">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjD2cnPzEeyoILQGEUt8Vg" value="&quot;src/test/resources/dojo/ConstruireMaison.feature&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZV5xXPzEeyoILQGEUt8Vg" name="glue">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjD2c3PzEeyoILQGEUt8Vg" value="&quot;villageTest&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZV5xnPzEeyoILQGEUt8Vg" name="plugin">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjD2dHPzEeyoILQGEUt8Vg" value="&quot;pretty&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjD2dXPzEeyoILQGEUt8Vg" value="&quot;json:target/cucumber-reports/cucumber.json&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjD2dnPzEeyoILQGEUt8Vg" value="&quot;html:target/cucumber-reports/index.html&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjD2d3PzEeyoILQGEUt8Vg" value="&quot;pretty:target/cucumber-reports/cucumber-pretty.txt&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjEdgHPzEeyoILQGEUt8Vg" value="&quot;usage:target/cucumber-reports/cucumber-usage.json&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjFEkHPzEeyoILQGEUt8Vg" value="&quot;junit:target/cucumber-reports/cucumber-results.xml&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZV5x3PzEeyoILQGEUt8Vg" name="strict" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjFEkXPzEeyoILQGEUt8Vg" value="true"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZV5yHPzEeyoILQGEUt8Vg" name="monochrome" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjFEknPzEeyoILQGEUt8Vg" value="true"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZWg0HPzEeyoILQGEUt8Vg" name="dryRun" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjFEk3PzEeyoILQGEUt8Vg" value="false"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZZkIXPzEeyoILQGEUt8Vg" base_Element="_mZWg0XPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZayQHPzEeyoILQGEUt8Vg" base_Element="_mZWg0XPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZayQXPzEeyoILQGEUt8Vg" name="RunWith">
+      <annotationParameters xmi:id="_mZayQnPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjFElHPzEeyoILQGEUt8Vg" value="Cucumber.class"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_mZayQ3PzEeyoILQGEUt8Vg" name="CucumberOptions">
+      <annotationParameters xmi:id="_mZayRHPzEeyoILQGEUt8Vg" name="features">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjFroHPzEeyoILQGEUt8Vg" value="&quot;src/test/resources/dojo/DemonVillage.feature&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZayRXPzEeyoILQGEUt8Vg" name="glue">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjFroXPzEeyoILQGEUt8Vg" value="&quot;fusion&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZayRnPzEeyoILQGEUt8Vg" name="plugin">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjFronPzEeyoILQGEUt8Vg" value="&quot;pretty&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjFro3PzEeyoILQGEUt8Vg" value="&quot;json:target/cucumber-reports/cucumber.json&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjFrpHPzEeyoILQGEUt8Vg" value="&quot;html:target/cucumber-reports/index.html&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjFrpXPzEeyoILQGEUt8Vg" value="&quot;pretty:target/cucumber-reports/cucumber-pretty.txt&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjFrpnPzEeyoILQGEUt8Vg" value="&quot;usage:target/cucumber-reports/cucumber-usage.json&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjFrp3PzEeyoILQGEUt8Vg" value="&quot;junit:target/cucumber-reports/cucumber-results.xml&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZayR3PzEeyoILQGEUt8Vg" name="strict" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjFrqHPzEeyoILQGEUt8Vg" value="true"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZaySHPzEeyoILQGEUt8Vg" name="monochrome" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjFrqXPzEeyoILQGEUt8Vg" value="true"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZaySXPzEeyoILQGEUt8Vg" name="dryRun" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjFrqnPzEeyoILQGEUt8Vg" value="false"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZcAY3PzEeyoILQGEUt8Vg" base_Element="_mZbZUHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZcncHPzEeyoILQGEUt8Vg" base_Element="_mZbZUHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZcncXPzEeyoILQGEUt8Vg" name="RunWith">
+      <annotationParameters xmi:id="_mZcncnPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjGSsHPzEeyoILQGEUt8Vg" value="Cucumber.class"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_mZcnc3PzEeyoILQGEUt8Vg" name="CucumberOptions">
+      <annotationParameters xmi:id="_mZcndHPzEeyoILQGEUt8Vg" name="features">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjGSsXPzEeyoILQGEUt8Vg" value="&quot;src/test/resources/dojo/Fusion.feature&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZcndXPzEeyoILQGEUt8Vg" name="glue">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjGSsnPzEeyoILQGEUt8Vg" value="&quot;fusion&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZdOgHPzEeyoILQGEUt8Vg" name="plugin">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjGSs3PzEeyoILQGEUt8Vg" value="&quot;pretty&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjGStHPzEeyoILQGEUt8Vg" value="&quot;json:target/cucumber-reports/cucumber.json&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjGStXPzEeyoILQGEUt8Vg" value="&quot;html:target/cucumber-reports/index.html&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjGStnPzEeyoILQGEUt8Vg" value="&quot;pretty:target/cucumber-reports/cucumber-pretty.txt&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjGSt3PzEeyoILQGEUt8Vg" value="&quot;usage:target/cucumber-reports/cucumber-usage.json&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjGSuHPzEeyoILQGEUt8Vg" value="&quot;junit:target/cucumber-reports/cucumber-results.xml&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZdOgXPzEeyoILQGEUt8Vg" name="strict" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjGSuXPzEeyoILQGEUt8Vg" value="true"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZdOgnPzEeyoILQGEUt8Vg" name="monochrome" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjG5wHPzEeyoILQGEUt8Vg" value="true"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZdOg3PzEeyoILQGEUt8Vg" name="dryRun" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjG5wXPzEeyoILQGEUt8Vg" value="false"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZfDsHPzEeyoILQGEUt8Vg" base_Element="_mZdOhHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZfqwHPzEeyoILQGEUt8Vg" base_Element="_mZdOhHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZfqwXPzEeyoILQGEUt8Vg" name="RunWith">
+      <annotationParameters xmi:id="_mZfqwnPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjG5wnPzEeyoILQGEUt8Vg" value="Cucumber.class"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_mZfqw3PzEeyoILQGEUt8Vg" name="CucumberOptions">
+      <annotationParameters xmi:id="_mZfqxHPzEeyoILQGEUt8Vg" name="features">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjG5w3PzEeyoILQGEUt8Vg" value="&quot;src/test/resources/dojo/NiveauPuissance.feature&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZfqxXPzEeyoILQGEUt8Vg" name="glue">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjG5xHPzEeyoILQGEUt8Vg" value="&quot;demonSlayers&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZgR0HPzEeyoILQGEUt8Vg" name="plugin">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjHg0HPzEeyoILQGEUt8Vg" value="&quot;pretty&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjHg0XPzEeyoILQGEUt8Vg" value="&quot;json:target/cucumber-reports/cucumber.json&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjHg0nPzEeyoILQGEUt8Vg" value="&quot;html:target/cucumber-reports/index.html&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjHg03PzEeyoILQGEUt8Vg" value="&quot;pretty:target/cucumber-reports/cucumber-pretty.txt&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjHg1HPzEeyoILQGEUt8Vg" value="&quot;usage:target/cucumber-reports/cucumber-usage.json&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjHg1XPzEeyoILQGEUt8Vg" value="&quot;junit:target/cucumber-reports/cucumber-results.xml&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZgR0XPzEeyoILQGEUt8Vg" name="strict" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjHg1nPzEeyoILQGEUt8Vg" value="true"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZgR0nPzEeyoILQGEUt8Vg" name="monochrome" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjHg13PzEeyoILQGEUt8Vg" value="true"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZgR03PzEeyoILQGEUt8Vg" name="dryRun" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjHg2HPzEeyoILQGEUt8Vg" value="false"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZhf8HPzEeyoILQGEUt8Vg" base_Element="_mZgR1HPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZiHAHPzEeyoILQGEUt8Vg" base_Element="_mZgR1HPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZiHAXPzEeyoILQGEUt8Vg" name="RunWith">
+      <annotationParameters xmi:id="_mZiuEHPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjHg2XPzEeyoILQGEUt8Vg" value="Cucumber.class"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_mZiuEXPzEeyoILQGEUt8Vg" name="CucumberOptions">
+      <annotationParameters xmi:id="_mZiuEnPzEeyoILQGEUt8Vg" name="features">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjHg2nPzEeyoILQGEUt8Vg" value="&quot;src/test/resources/dojo/TuerTraitre.feature&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZiuE3PzEeyoILQGEUt8Vg" name="glue">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjHg23PzEeyoILQGEUt8Vg" value="&quot;villageTest&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZiuFHPzEeyoILQGEUt8Vg" name="plugin">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjHg3HPzEeyoILQGEUt8Vg" value="&quot;pretty&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjIH4HPzEeyoILQGEUt8Vg" value="&quot;json:target/cucumber-reports/cucumber.json&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjIH4XPzEeyoILQGEUt8Vg" value="&quot;html:target/cucumber-reports/index.html&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjIH4nPzEeyoILQGEUt8Vg" value="&quot;pretty:target/cucumber-reports/cucumber-pretty.txt&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjIH43PzEeyoILQGEUt8Vg" value="&quot;usage:target/cucumber-reports/cucumber-usage.json&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjIH5HPzEeyoILQGEUt8Vg" value="&quot;junit:target/cucumber-reports/cucumber-results.xml&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZiuFXPzEeyoILQGEUt8Vg" name="strict" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjIH5XPzEeyoILQGEUt8Vg" value="true"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZiuFnPzEeyoILQGEUt8Vg" name="monochrome" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjIH5nPzEeyoILQGEUt8Vg" value="true"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_mZjVIHPzEeyoILQGEUt8Vg" name="dryRun" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjIH53PzEeyoILQGEUt8Vg" value="false"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZlxYHPzEeyoILQGEUt8Vg" base_Element="_mZlKUHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZmYcHPzEeyoILQGEUt8Vg" base_Element="_mZlKUHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZmYcXPzEeyoILQGEUt8Vg" name="Before"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZm_gHPzEeyoILQGEUt8Vg" base_Element="_mZmYcnPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZm_gXPzEeyoILQGEUt8Vg" base_Element="_mZmYcnPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZnmkHPzEeyoILQGEUt8Vg" name="After"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZnmknPzEeyoILQGEUt8Vg" base_Element="_mZnmkXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZoNoHPzEeyoILQGEUt8Vg" base_Element="_mZnmkXPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZoNoXPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZo0sHPzEeyoILQGEUt8Vg" base_Element="_mZoNonPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZo0sXPzEeyoILQGEUt8Vg" base_Element="_mZoNonPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZo0snPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZpbwXPzEeyoILQGEUt8Vg" base_Element="_mZpbwHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZqC0HPzEeyoILQGEUt8Vg" base_Element="_mZpbwHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZqC0XPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZttMHPzEeyoILQGEUt8Vg" base_Element="_mZqC0nPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZttMXPzEeyoILQGEUt8Vg" base_Element="_mZqC0nPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZttMnPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZx-oHPzEeyoILQGEUt8Vg" base_Element="_mZxXkHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZzMwHPzEeyoILQGEUt8Vg" base_Element="_mZxXkHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZzMwXPzEeyoILQGEUt8Vg" name="Given">
+      <annotationParameters xmi:id="_mZzz0HPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjJWAHPzEeyoILQGEUt8Vg" value="&quot;le village {string}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZ1pAHPzEeyoILQGEUt8Vg" base_Element="_mZzz0XPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZ2QEHPzEeyoILQGEUt8Vg" base_Element="_mZzz0XPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZ2QEXPzEeyoILQGEUt8Vg" name="When">
+      <annotationParameters xmi:id="_mZ2QEnPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjJWAXPzEeyoILQGEUt8Vg" value="&quot;le village a {int} maisons&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZ4FQHPzEeyoILQGEUt8Vg" base_Element="_mZ23IHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZ4sUHPzEeyoILQGEUt8Vg" base_Element="_mZ23IHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZ4sUXPzEeyoILQGEUt8Vg" name="When">
+      <annotationParameters xmi:id="_mZ4sUnPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjJWAnPzEeyoILQGEUt8Vg" value="&quot;une maison est construite&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZ56cHPzEeyoILQGEUt8Vg" base_Element="_mZ5TYHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZ56cXPzEeyoILQGEUt8Vg" base_Element="_mZ5TYHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZ6hgHPzEeyoILQGEUt8Vg" name="Then">
+      <annotationParameters xmi:id="_mZ6hgXPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjJWA3PzEeyoILQGEUt8Vg" value="&quot;le {int} enregistre&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mZ-L4XPzEeyoILQGEUt8Vg" base_Element="_mZ-L4HPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mZ-y8HPzEeyoILQGEUt8Vg" base_Element="_mZ-L4HPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mZ-y8XPzEeyoILQGEUt8Vg" name="Before"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_maAoIHPzEeyoILQGEUt8Vg" base_Element="_mZ-y8nPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_maBPMHPzEeyoILQGEUt8Vg" base_Element="_mZ-y8nPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_maBPMXPzEeyoILQGEUt8Vg" name="After"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_maCdUHPzEeyoILQGEUt8Vg" base_Element="_maBPMnPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_maCdUXPzEeyoILQGEUt8Vg" base_Element="_maBPMnPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_maCdUnPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_maFgonPzEeyoILQGEUt8Vg" base_Element="_maFgoHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_maGHsHPzEeyoILQGEUt8Vg" base_Element="_maFgoHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_maGHsXPzEeyoILQGEUt8Vg" name="Given">
+      <annotationParameters xmi:id="_maGHsnPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjJ9EHPzEeyoILQGEUt8Vg" value="&quot;un village {string}&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_maHV0HPzEeyoILQGEUt8Vg" base_Element="_maGuwHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_maH84HPzEeyoILQGEUt8Vg" base_Element="_maGuwHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_maH84XPzEeyoILQGEUt8Vg" name="When">
+      <annotationParameters xmi:id="_maH84nPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjJ9EXPzEeyoILQGEUt8Vg" value="&quot;le village a {int} habitants&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_maIj8HPzEeyoILQGEUt8Vg" base_Element="_maH843PzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_maIj8XPzEeyoILQGEUt8Vg" base_Element="_maH843PzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_maIj8nPzEeyoILQGEUt8Vg" name="When">
+      <annotationParameters xmi:id="_maIj83PzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjJ9EnPzEeyoILQGEUt8Vg" value="&quot;un traitre est tue&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_maKZIHPzEeyoILQGEUt8Vg" base_Element="_maJLAHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_maLAMHPzEeyoILQGEUt8Vg" base_Element="_maJLAHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_maLAMXPzEeyoILQGEUt8Vg" name="Then">
+      <annotationParameters xmi:id="_maLAMnPzEeyoILQGEUt8Vg" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_mjJ9E3PzEeyoILQGEUt8Vg" value="&quot;le {int} est enregistre&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_maRt4HPzEeyoILQGEUt8Vg" base_Element="_maQfwHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_maRt4XPzEeyoILQGEUt8Vg" base_Element="_maQfwHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_maSU8HPzEeyoILQGEUt8Vg" name="Before"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_maSU8nPzEeyoILQGEUt8Vg" base_Element="_maSU8XPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_maS8AHPzEeyoILQGEUt8Vg" base_Element="_maSU8XPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_maS8AXPzEeyoILQGEUt8Vg" name="After"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_maS8A3PzEeyoILQGEUt8Vg" base_Element="_maS8AnPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_maTjEHPzEeyoILQGEUt8Vg" base_Element="_maS8AnPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_maTjEXPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_maVYQHPzEeyoILQGEUt8Vg" base_Element="_maTjEnPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_maWmYHPzEeyoILQGEUt8Vg" base_Element="_maTjEnPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_maWmYXPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_maX0gHPzEeyoILQGEUt8Vg" base_Element="_maWmYnPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_maX0gXPzEeyoILQGEUt8Vg" base_Element="_maWmYnPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_maYbkHPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_maYbknPzEeyoILQGEUt8Vg" base_Element="_maYbkXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_maZCoHPzEeyoILQGEUt8Vg" base_Element="_maYbkXPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_maZCoXPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_macF8HPzEeyoILQGEUt8Vg" base_Element="_maZConPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_macF8XPzEeyoILQGEUt8Vg" base_Element="_maZConPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_macF8nPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mactAXPzEeyoILQGEUt8Vg" base_Element="_mactAHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_madUEHPzEeyoILQGEUt8Vg" base_Element="_mactAHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_madUEXPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_madUE3PzEeyoILQGEUt8Vg" base_Element="_madUEnPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mad7IHPzEeyoILQGEUt8Vg" base_Element="_madUEnPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mad7IXPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mad7I3PzEeyoILQGEUt8Vg" base_Element="_mad7InPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_maeiMHPzEeyoILQGEUt8Vg" base_Element="_mad7InPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_maeiMXPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mafJQHPzEeyoILQGEUt8Vg" base_Element="_maeiMnPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mafwUHPzEeyoILQGEUt8Vg" base_Element="_maeiMnPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mafwUXPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_magXYHPzEeyoILQGEUt8Vg" base_Element="_mafwUnPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_mag-cHPzEeyoILQGEUt8Vg" base_Element="_mafwUnPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mag-cXPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_maskoHPzEeyoILQGEUt8Vg" base_Element="_mag-cnPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_matLsHPzEeyoILQGEUt8Vg" base_Element="_mag-cnPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_mayrQHPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mazSUXPzEeyoILQGEUt8Vg" base_Element="_mazSUHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Annotations xmi:id="_maz5YHPzEeyoILQGEUt8Vg" base_Element="_mazSUHPzEeyoILQGEUt8Vg">
+    <annotations xmi:id="_maz5YXPzEeyoILQGEUt8Vg" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_mgUEcHPzEeyoILQGEUt8Vg" base_Element="_mgTdYHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mgVSkHPzEeyoILQGEUt8Vg" base_Element="_mgUrgHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mgWgsHPzEeyoILQGEUt8Vg" base_Element="_mgVSkXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mgXHwHPzEeyoILQGEUt8Vg" base_Element="_mgWgsXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mgYV4HPzEeyoILQGEUt8Vg" base_Element="_mgXHwXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mgY88HPzEeyoILQGEUt8Vg" base_Element="_mgYV4XPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mgg4wHPzEeyoILQGEUt8Vg" base_Element="_mggRsHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mgit8HPzEeyoILQGEUt8Vg" base_Element="_mghf0HPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mgjVAHPzEeyoILQGEUt8Vg" base_Element="_mgit8XPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mgkjIHPzEeyoILQGEUt8Vg" base_Element="_mgj8EHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mglKMHPzEeyoILQGEUt8Vg" base_Element="_mgkjIXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mgmYUHPzEeyoILQGEUt8Vg" base_Element="_mglxQHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mgm_YHPzEeyoILQGEUt8Vg" base_Element="_mgmYUXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mg89oHPzEeyoILQGEUt8Vg" base_Element="_mg7IcHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mg-LwHPzEeyoILQGEUt8Vg" base_Element="_mg89oXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mg_Z4HPzEeyoILQGEUt8Vg" base_Element="_mg-LwXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mhCdMHPzEeyoILQGEUt8Vg" base_Element="_mhB2IHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mhLAEHPzEeyoILQGEUt8Vg" base_Element="_mhJx8HPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Generics xmi:id="_mh28kHPzEeyoILQGEUt8Vg" genericsValue="Village" base_Element="_mh1ucXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Generics xmi:id="_mh5Y0HPzEeyoILQGEUt8Vg" genericsValue="Village" base_Element="_mh4KsHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miAGgHPzEeyoILQGEUt8Vg" base_Element="_mh_fcHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miAtkXPzEeyoILQGEUt8Vg" base_Element="_miAtkHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miB7sHPzEeyoILQGEUt8Vg" base_Element="_miBUoHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miCiwHPzEeyoILQGEUt8Vg" base_Element="_miB7sXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miEX8HPzEeyoILQGEUt8Vg" base_Element="_miDw4HPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miE_AHPzEeyoILQGEUt8Vg" base_Element="_miEX8XPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miG0MHPzEeyoILQGEUt8Vg" base_Element="_miFmEHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miHbQHPzEeyoILQGEUt8Vg" base_Element="_miG0MXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miIpYHPzEeyoILQGEUt8Vg" base_Element="_miICUHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miJ3gHPzEeyoILQGEUt8Vg" base_Element="_miJQcHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miKekHPzEeyoILQGEUt8Vg" base_Element="_miJ3gXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miLFoXPzEeyoILQGEUt8Vg" base_Element="_miLFoHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miMTwHPzEeyoILQGEUt8Vg" base_Element="_miLssHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miM60HPzEeyoILQGEUt8Vg" base_Element="_miMTwXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miOI8HPzEeyoILQGEUt8Vg" base_Element="_miNh4HPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miOwAHPzEeyoILQGEUt8Vg" base_Element="_miOI8XPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miPXEHPzEeyoILQGEUt8Vg" base_Element="_miOwAXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miQlMHPzEeyoILQGEUt8Vg" base_Element="_miP-IHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miRMQHPzEeyoILQGEUt8Vg" base_Element="_miQlMXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miRzUHPzEeyoILQGEUt8Vg" base_Element="_miRMQXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miSaYXPzEeyoILQGEUt8Vg" base_Element="_miSaYHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miTogHPzEeyoILQGEUt8Vg" base_Element="_miTBcHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miUPkXPzEeyoILQGEUt8Vg" base_Element="_miUPkHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miU2oHPzEeyoILQGEUt8Vg" base_Element="_miUPknPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miWEwHPzEeyoILQGEUt8Vg" base_Element="_miVdsHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miXS4HPzEeyoILQGEUt8Vg" base_Element="_miWr0HPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miX58HPzEeyoILQGEUt8Vg" base_Element="_miXS4XPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_miZIEHPzEeyoILQGEUt8Vg" base_Property="_miYhAHPzEeyoILQGEUt8Vg" siblings="_mjIH6HPzEeyoILQGEUt8Vg" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miZIEXPzEeyoILQGEUt8Vg" base_Element="_miYhAHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miaWMHPzEeyoILQGEUt8Vg" base_Element="_miZvIHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mia9QHPzEeyoILQGEUt8Vg" base_Element="_miaWMXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_midZgHPzEeyoILQGEUt8Vg" base_Element="_micLYHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mieAkHPzEeyoILQGEUt8Vg" base_Element="_midZgXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mienoXPzEeyoILQGEUt8Vg" base_Element="_mienoHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mifOsXPzEeyoILQGEUt8Vg" base_Element="_mifOsHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mif1wXPzEeyoILQGEUt8Vg" base_Element="_mif1wHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_migc0XPzEeyoILQGEUt8Vg" base_Element="_migc0HPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mihD4HPzEeyoILQGEUt8Vg" base_Element="_migc0nPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_miiSAHPzEeyoILQGEUt8Vg" base_Property="_mihq8HPzEeyoILQGEUt8Vg" siblings="_mjJ9FHPzEeyoILQGEUt8Vg _mjKkInPzEeyoILQGEUt8Vg" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_miiSAXPzEeyoILQGEUt8Vg" base_Element="_mihq8HPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mikuQHPzEeyoILQGEUt8Vg" base_Element="_mikHMHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_mjIu8HPzEeyoILQGEUt8Vg" base_Property="_mjIH6HPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mjIu8XPzEeyoILQGEUt8Vg" base_Element="_mjIH6HPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_mjKkIHPzEeyoILQGEUt8Vg" base_Property="_mjJ9FHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mjKkIXPzEeyoILQGEUt8Vg" base_Element="_mjJ9FHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_mjLLMHPzEeyoILQGEUt8Vg" base_Property="_mjKkInPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mjLLMXPzEeyoILQGEUt8Vg" base_Element="_mjKkInPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mjZ0sHPzEeyoILQGEUt8Vg" base_Element="_mjX_gHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mjbC0HPzEeyoILQGEUt8Vg" base_Element="_mjabwHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mjcQ8HPzEeyoILQGEUt8Vg" base_Element="_mjbC0XPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mjc4AHPzEeyoILQGEUt8Vg" base_Element="_mjcQ8XPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mjvL4HPzEeyoILQGEUt8Vg" base_Element="_mjc4AXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mjwaAHPzEeyoILQGEUt8Vg" base_Element="_mjvL4XPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mjxoIHPzEeyoILQGEUt8Vg" base_Element="_mjxBEHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mjy2QHPzEeyoILQGEUt8Vg" base_Element="_mjyPMHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mj0EYHPzEeyoILQGEUt8Vg" base_Element="_mjzdUHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mj1SgHPzEeyoILQGEUt8Vg" base_Element="_mj0EYXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mj15kHPzEeyoILQGEUt8Vg" base_Element="_mj1SgXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mj484HPzEeyoILQGEUt8Vg" base_Element="_mj2goHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mj6LAHPzEeyoILQGEUt8Vg" base_Element="_mj484XPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mj7ZIHPzEeyoILQGEUt8Vg" base_Element="_mj6LAXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mj8nQHPzEeyoILQGEUt8Vg" base_Element="_mj8AMHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mj91YHPzEeyoILQGEUt8Vg" base_Element="_mj9OUHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mj_qkHPzEeyoILQGEUt8Vg" base_Element="_mj_DgHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkA4sHPzEeyoILQGEUt8Vg" base_Element="_mj_qkXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkCt4HPzEeyoILQGEUt8Vg" base_Element="_mkA4sXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkEjEHPzEeyoILQGEUt8Vg" base_Element="_mkDU8HPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkG_UHPzEeyoILQGEUt8Vg" base_Element="_mkFKIHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkINcHPzEeyoILQGEUt8Vg" base_Element="_mkG_UXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkJbkHPzEeyoILQGEUt8Vg" base_Element="_mkINcXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkKpsHPzEeyoILQGEUt8Vg" base_Element="_mkJbkXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkLQwHPzEeyoILQGEUt8Vg" base_Element="_mkKpsXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkNtAHPzEeyoILQGEUt8Vg" base_Element="_mkL30HPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkPiMHPzEeyoILQGEUt8Vg" base_Element="_mkNtAXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkQJQHPzEeyoILQGEUt8Vg" base_Element="_mkPiMXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkR-cHPzEeyoILQGEUt8Vg" base_Element="_mkQwUHPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkSlgHPzEeyoILQGEUt8Vg" base_Element="_mkR-cXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkTzoHPzEeyoILQGEUt8Vg" base_Element="_mkSlgXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkVBwHPzEeyoILQGEUt8Vg" base_Element="_mkTzoXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkW28HPzEeyoILQGEUt8Vg" base_Element="_mkVBwXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkXeAHPzEeyoILQGEUt8Vg" base_Element="_mkW28XPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkYsIHPzEeyoILQGEUt8Vg" base_Element="_mkXeAXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkZTMHPzEeyoILQGEUt8Vg" base_Element="_mkYsIXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkahUHPzEeyoILQGEUt8Vg" base_Element="_mkZTMXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkbIYHPzEeyoILQGEUt8Vg" base_Element="_mkahUXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkcWgHPzEeyoILQGEUt8Vg" base_Element="_mkbIYXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkdkoHPzEeyoILQGEUt8Vg" base_Element="_mkcWgXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkeLsHPzEeyoILQGEUt8Vg" base_Element="_mkdkoXPzEeyoILQGEUt8Vg"/>
+  <UMLLabProfile:Reference xmi:id="_mkfZ0HPzEeyoILQGEUt8Vg" base_Element="_mkeywHPzEeyoILQGEUt8Vg"/>
+</xmi:XMI>

@@ -134,7 +134,12 @@
 						<parallel>methods</parallel>
 						<useUnlimitedThreads>true</useUnlimitedThreads>
 						<includes>
-							<include>TestRunner_AttaquerVillage.java</include>
+							<include>TestRunnerConstruireMaison.java</include>
+							<include>TestRunnerAfficherNom.java</include>
+							<include>TestRunnerDemonVillage.java</include>
+							<include>TestRunnerFusion.java</include>
+							<include>TestRunnerGetNiveauDePuissance.java</include>
+							<include>TestRunnerTuerTraitre.java</include>
 						</includes>
 
 
