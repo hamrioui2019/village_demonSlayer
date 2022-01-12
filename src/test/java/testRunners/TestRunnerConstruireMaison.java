@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)  
 @CucumberOptions(
-features = {"src/test/resources/dojo"},
+features = {"src/test/resources/dojo/ConstruireMaison.feature"},
 glue = {"villageTest"},
 plugin = {"pretty", "json:target/cucumber-reports/cucumber.json", "html:target/cucumber-reports/index.html","pretty:target/cucumber-reports/cucumber-pretty.txt","usage:target/cucumber-reports/cucumber-usage.json", "junit:target/cucumber-reports/cucumber-results.xml"}, //to generate different types of reporting
 strict = true, //it will check if any step is not defined in step definition file
@@ -18,4 +18,6 @@ dryRun = false //to check the mapping is proper between feature file and step de
 //publish = true
 // tags = "(@SmokeTest or @Regression) and (not @pending)"
 )
-public class TestRunner_AttaquerVillage { }
+public class TestRunnerConstruireMaison {
+
+}

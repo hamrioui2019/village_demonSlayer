@@ -1,49 +1,92 @@
 [
   {
-    "source": "le village Oto",
+    "source": "un demon slayer sedentaire {string}",
     "steps": [
       {
-        "name": "le village Oto",
+        "name": "un demon slayer sedentaire \"toto\"",
         "aggregatedDurations": {
-          "median": 0.0020265,
-          "average": 0.0020265
+          "median": 9.97E-4,
+          "average": 9.97E-4
         },
         "durations": [
           {
-            "duration": 0.0020265,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:9"
+            "duration": 9.97E-4,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/DemonVillage.feature:9"
           }
         ]
       }
     ]
   },
   {
-    "source": "je l attaque",
+    "source": "recuperer le nom du village du demon slayer sedentaire",
     "steps": [
       {
-        "name": "je l attaque",
+        "name": "recuperer le nom du village du demon slayer sedentaire",
         "aggregatedDurations": {
-          "median": 4.983E-4,
-          "average": 4.983E-4
+          "median": 0.0,
+          "average": 0.0
         },
         "durations": [
           {
             "duration": 0.0,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:10"
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/DemonVillage.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "le {string} est celui qui lui est attribue",
+    "steps": [
+      {
+        "name": "le \"konoha\" est celui qui lui est attribue",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/DemonVillage.feature:11"
+          }
+        ]
+      }
+    ]
+  }
+]     "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/ConstruireMaison.feature:12"
+          }
+        ]
+      }
+    ]
+  }
+]4.986E-4,
+          "average": 4.986E-4
+        },
+        "durations": [
+          {
+            "duration": 9.972E-4,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/TuerTraitre.feature:11"
           },
           {
-            "duration": 9.966E-4,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:21"
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/TuerTraitre.feature:11"
           }
         ]
       }
     ]
   },
   {
-    "source": "il apparait dans les villages conquis",
+    "source": "le {int} est enregistre",
     "steps": [
       {
-        "name": "il apparait dans les villages conquis",
+        "name": "le 9999 est enregistre",
         "aggregatedDurations": {
           "median": 0.0,
           "average": 0.0
@@ -51,17 +94,12 @@
         "durations": [
           {
             "duration": 0.0,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:11"
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/TuerTraitre.feature:12"
           }
         ]
-      }
-    ]
-  },
-  {
-    "source": "il n apparait pas dans les villages ennemis",
-    "steps": [
+      },
       {
-        "name": "il n apparait pas dans les villages ennemis",
+        "name": "le 1499 est enregistre",
         "aggregatedDurations": {
           "median": 0.0,
           "average": 0.0
@@ -69,115 +107,7 @@
         "durations": [
           {
             "duration": 0.0,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:12"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "le village Suna",
-    "steps": [
-      {
-        "name": "le village Suna",
-        "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
-        },
-        "durations": [
-          {
-            "duration": 0.0,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:15"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "j attaque Suna",
-    "steps": [
-      {
-        "name": "j attaque Suna",
-        "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
-        },
-        "durations": [
-          {
-            "duration": 0.0,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:16"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "il n apparait pas dans les villages conquis",
-    "steps": [
-      {
-        "name": "il n apparait pas dans les villages conquis",
-        "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
-        },
-        "durations": [
-          {
-            "duration": 0.0,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:17"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "un village {string}",
-    "steps": [
-      {
-        "name": "un village \"Oto\"",
-        "aggregatedDurations": {
-          "median": 0.001995,
-          "average": 0.001995
-        },
-        "durations": [
-          {
-            "duration": 0.001995,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:20"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "il apparait dans les villages conquis de {string}",
-    "steps": [
-      {
-        "name": "il apparait dans les villages conquis de \"Hokage\"",
-        "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
-        },
-        "durations": [
-          {
-            "duration": 0.0,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:22"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "il n apparait pas dans les {string}",
-    "steps": [
-      {
-        "name": "il n apparait pas dans les \"\"",
-        "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
-        },
-        "durations": [
-          {
-            "duration": 0.0,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/US005_AttaquerVillage.feature:23"
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/TuerTraitre.feature:12"
           }
         ]
       }

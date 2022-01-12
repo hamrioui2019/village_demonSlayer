@@ -1,20 +1,11 @@
 
 @tag
-Scenario: Attaquer un village ennemi              # src/test/resources/dojo/US005_AttaquerVillage.feature:8
-  Given le village Oto                            # villageTest.AttaquerSteps.le_village_Oto()
-  When je l attaque                               # villageTest.AttaquerSteps.je_l_attaque()
-  Then il apparait dans les villages conquis      # villageTest.AttaquerSteps.il_apparait_dans_les_villages_conquis()
-  And il n apparait pas dans les villages ennemis # villageTest.AttaquerSteps.il_n_apparait_pas_dans_les_villages_ennemis()
-
-@tag
-Scenario: Attaquer un village non ennemi           # src/test/resources/dojo/US005_AttaquerVillage.feature:14
-  Given le village Suna                            # villageTest.AttaquerSteps.le_village_Suna()
-  When j attaque Suna                              # villageTest.AttaquerSteps.j_attaque_Suna()
-  Then il n apparait pas dans les villages conquis # villageTest.AttaquerSteps.il_n_apparait_pas_dans_les_villages_conquis()
-
-@tag
-Scenario Outline: Attaquer un village                    # src/test/resources/dojo/US005_AttaquerVillage.feature:27
-  Given un village "Oto"                                 # villageTest.AttaquerSteps.un_village(java.lang.String)
-  When je l attaque                                      # villageTest.AttaquerSteps.je_l_attaque()
-  Then il apparait dans les villages conquis de "Hokage" # villageTest.AttaquerSteps.il_apparait_dans_les_villages_conquis_de(java.lang.String)
-  And il n apparait pas dans les ""                      # villageTest.AttaquerSteps.il_n_apparait_pas_dans_les(java.lang.String)
+Scenario Outline: recuperer le village                        # src/test/resources/dojo/DemonVillage.feature:15
+  Given un demon slayer sedentaire "toto"                     # fusion.DemonVillageSteps.un_demon_slayer_sedentaire(java.lang.String)
+  When recuperer le nom du village du demon slayer sedentaire # fusion.DemonVillageSteps.recuperer_le_nom_du_village_du_demon_slayer_sedentaire()
+  Then le "konoha" est celui qui lui est attribue             # fusion.DemonVillageSteps.le_est_celui_qui_lui_est_attribue(java.lang.String)
+/resources/dojo/TuerTraitre.feature:17
+  Given un village "Suna"          # villageTest.TuerTraitreSteps.un_village(java.lang.String)
+  When le village a 1500 habitants # villageTest.TuerTraitreSteps.le_village_a_habitants(java.lang.Integer)
+  And un traitre est tue           # villageTest.TuerTraitreSteps.un_traitre_est_tue()
+  Then le 1499 est enregistre      # villageTest.TuerTraitreSteps.le_est_enregistre(java.lang.Integer)

@@ -1,4 +1,4 @@
-package testing;
+package fusion;
 
 import org.junit.After;
 import org.junit.Before;
@@ -28,6 +28,8 @@ public class DemonSlayerSedentaireTest {
 	@Before
 	public void setUp() // throws java.lang.Exception
 	{
+		konoha = new Village();
+		oto = new Village();
 		toto = new DemonSlayerSedentaire(konoha, "toto", 11, "eau");
 	}
 
