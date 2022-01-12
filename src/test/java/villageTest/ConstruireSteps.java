@@ -3,9 +3,9 @@ package villageTest;
 import io.cucumber.java.en.*;
 
 import static org.junit.Assert.*;
+
 import main.Village;
 import testRunners.TestRunnerConstruireMaison;
-
 
 public class ConstruireSteps extends TestRunnerConstruireMaison {
 
@@ -30,8 +30,7 @@ public class ConstruireSteps extends TestRunnerConstruireMaison {
 
 	@Then("le {int} enregistre")
 	public void le_enregistre(Integer int1) {
-		assertTrue(int1== village.getNbrMaison());
+		assertTrue(int1 == village.getNbrMaison());
 	}
-
 
 }

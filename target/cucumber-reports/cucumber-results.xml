@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.027">
-    <testcase classname="Recuperer le village du demon slayer sedentaire" name="recuperer le village" time="0.011">
-        <system-out><![CDATA[Given un demon slayer sedentaire "toto".....................................passed
-When recuperer le nom du village du demon slayer sedentaire.................passed
-Then le "konoha" est celui qui lui est attribue.............................passed
-]]></system-out>
-    </testcase>
-</testsuite>
-.passed
-]]></system-out>
-    </testcase>
-</testsuite>
-Tuer un traitre" name="Tuer un traitre 2" time="0.005">
-        <system-out><![CDATA[Given un village "Suna".....................................................passed
-When le village a 1500 habitants............................................passed
-And un traitre est tue......................................................passed
-Then le 1499 est enregistre.................................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="1.189">
+    <testcase classname="recuperer le niveau de puissance" name="un demon recupere son niveau de puissance" time="0.295">
+        <system-out><![CDATA[Given un demon slayer "toto"................................................passed
+And avec un grade "chef"....................................................passed
+When je recupere mon niveau de puissance....................................passed
+Then Le niveau de puissance 5 est affecte...................................passed
 ]]></system-out>
     </testcase>
 </testsuite>

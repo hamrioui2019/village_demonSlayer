@@ -1,6 +1,10 @@
 main\Village.class
 damonSlayer\DemonSlayer.class
 main\ChefVillage.class
+main\AffichageVillage.class
 damonSlayer\DemonSlayerSedentaire.class
+main\AffichageDemonSlayerSedentaire.class
 damonSlayer\Grade.class
 main\Ninja.class
+main\Affichage.class
+main\AffichageNinja.class

@@ -7,6 +7,7 @@ import static org.junit.Assert.assertEquals;
 import damonSlayer.DemonSlayerSedentaire;
 import io.cucumber.java.en.*;
 import main.Village;
+
 public class DemonVillageSteps extends TestRunnerDemonVillage {
 	private DemonSlayerSedentaire toto;
 	private Village konoha;
@@ -22,9 +23,11 @@ public class DemonVillageSteps extends TestRunnerDemonVillage {
 	public void recuperer_le_nom_du_village_du_demon_slayer_sedentaire() {
 		toto.getVillage().getNomVillage();
 	}
+
 	@Then("le {string} est celui qui lui est attribue")
 	public void le_est_celui_qui_lui_est_attribue(String string) {
-		assertEquals(toto.getVillage().getNomVillage(),string);
+		assertEquals(toto.getVillage().getNomVillage(), string);
 	}
 
 }
+

@@ -4,15 +4,21 @@ import main.Village;
 
 public class DemonSlayerSedentaire extends DemonSlayer {
 	private Village village;
-	public DemonSlayerSedentaire(Village village,String n, int nb, String type) {
-		super(n, nb, type);
+
+	public DemonSlayerSedentaire(Village village, String nom, int nombreMouvement, String typeSouffle) {
+		super(nom, nombreMouvement, typeSouffle);
 		this.setVillage(village);
 	}
+
 	public Village getVillage() {
-		return village;
+		return this.village;
 	}
+
 	public void setVillage(Village village) {
 		this.village = village;
 	}
 
 }
+
+
+

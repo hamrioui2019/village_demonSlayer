@@ -10,11 +10,12 @@ public class AffichageDemonSlayerSedentaire implements Affichage {
 		String listDemonSlayerSedentaire = "";
 		
 		for(DemonSlayerSedentaire demonslayer : village.getListDemonSlayerSedentaires()) {
-			listDemonSlayerSedentaire = listDemonSlayerSedentaire.concat("Nom : "  + demonslayer.getNom() + " | Type de souffle : " + demonslayer.getTypeDeSouffle() + "\n");
+			listDemonSlayerSedentaire = listDemonSlayerSedentaire.concat("Nom : "  + demonslayer.getNom() + 
+					" | Type de souffle : " + demonslayer.getTypeDeSouffle() + "\n");
 
 		}
 		
-		return listDemonSlayerSedentaire;
+		return listDemonSlayerSedentaire; 
 	}
 
 }

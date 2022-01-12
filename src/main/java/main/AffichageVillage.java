@@ -25,5 +25,4 @@ public class AffichageVillage implements Affichage {
 
 		return listHabitantVillage;
 	}
-
 }

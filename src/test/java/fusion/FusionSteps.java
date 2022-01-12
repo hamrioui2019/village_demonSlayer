@@ -1,6 +1,7 @@
 package fusion;
 
 import static org.junit.Assert.*;
+
 import damonSlayer.DemonSlayerSedentaire;
 import io.cucumber.java.en.*;
 import main.Village;
@@ -18,14 +19,15 @@ public class FusionSteps extends TestRunnerFusion {
 		konoha.setNomVillage(string);
 	}
 
-
 	@When("ajouter un demon slayer")
 	public void ajouter_un_demon_slayer() {
 		toto = new DemonSlayerSedentaire(konoha, "toto", 11, "eau");
 		konoha.ajouterDemonSlayerSedentaire(toto);
 	}
+
 	@Then("le {int} est enregistre")
 	public void le_est_enregistre(Integer int1) {
-		assertTrue(int1==konoha.getNbrHabitant());
+		assertTrue(int1 == konoha.getNbrHabitant());
 	}
 }
+
