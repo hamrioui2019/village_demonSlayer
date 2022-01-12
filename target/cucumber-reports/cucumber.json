@@ -3,156 +3,59 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2022-01-12T21:24:07.043Z",
+        "start_timestamp": "2022-01-12T21:47:05.654Z",
         "line": 15,
-        "name": "recuperer le village",
+        "name": "Accueillir un demon slayer",
         "description": "",
-        "id": "recuperer-le-village-du-demon-slayer-sedentaire;recuperer-le-village;;2",
+        "id": "recuperer-le-nombre-d-habittant;accueillir-un-demon-slayer;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 994400,
+              "duration": 5985100,
               "status": "passed"
             },
             "line": 9,
-            "name": "un demon slayer sedentaire \"toto\"",
+            "name": "le village \"Konoha\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"toto\"",
-                  "offset": 27
-                }
-              ],
-              "location": "fusion.DemonVillageSteps.un_demon_slayer_sedentaire(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 991300,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "recuperer le nom du village du demon slayer sedentaire",
-            "match": {
-              "location": "fusion.DemonVillageSteps.recuperer_le_nom_du_village_du_demon_slayer_sedentaire()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "le \"konoha\" est celui qui lui est attribue",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"konoha\"",
-                  "offset": 3
-                }
-              ],
-              "location": "fusion.DemonVillageSteps.le_est_celui_qui_lui_est_attribue(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@tag"
-          }
-        ]
-      }
-    ],
-    "name": "Recuperer le village du demon slayer sedentaire",
-    "description": "\tEn tant que demon slayer sedentaire\n\tJe veux connaitre a quel village j appartiens\n\tAfin de le communiquer a ma communaute",
-    "id": "recuperer-le-village-du-demon-slayer-sedentaire",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/dojo/DemonVillage.feature",
-    "tags": [
-      {
-        "name": "@tag",
-        "type": "Tag",
-        "location": {
-          "line": 2,
-          "column": 1
-        }
-      }
-    ]
-  }
-]d": "Feature",
-    "uri": "file:src/test/resources/dojo/ConstruireMaison.feature",
-    "tags": [
-      {
-        "name": "@tag",
-        "type": "Tag",
-        "location": {
-          "line": 2,
-          "column": 1
-        }
-      }
-    ]
-  }
-]    },
-            "line": 9,
-            "name": "un village \"Suna\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Suna\"",
+                  "val": "\"Konoha\"",
                   "offset": 11
                 }
               ],
-              "location": "villageTest.TuerTraitreSteps.un_village(java.lang.String)"
+              "location": "fusion.FusionSteps.le_village(java.lang.String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1993400,
+              "duration": 1995500,
               "status": "passed"
             },
             "line": 10,
-            "name": "le village a 1500 habitants",
+            "name": "ajouter un demon slayer",
             "match": {
-              "arguments": [
-                {
-                  "val": "1500",
-                  "offset": 13
-                }
-              ],
-              "location": "villageTest.TuerTraitreSteps.le_village_a_habitants(java.lang.Integer)"
+              "location": "fusion.FusionSteps.ajouter_un_demon_slayer()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 996000,
+              "duration": 1993700,
               "status": "passed"
             },
             "line": 11,
-            "name": "un traitre est tue",
-            "match": {
-              "location": "villageTest.TuerTraitreSteps.un_traitre_est_tue()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "le 1499 est enregistre",
+            "name": "le 5001 est enregistre",
             "match": {
               "arguments": [
                 {
-                  "val": "1499",
+                  "val": "5001",
                   "offset": 3
                 }
               ],
-              "location": "villageTest.TuerTraitreSteps.le_est_enregistre(java.lang.Integer)"
+              "location": "fusion.FusionSteps.le_est_enregistre(java.lang.Integer)"
             },
             "keyword": "Then "
           }
@@ -164,11 +67,11 @@
         ]
       }
     ],
-    "name": "Tuer un traitre",
-    "description": "\tEn tant que chef du village\n\tJe veux pouvoir tuer les traitres\n\tAfin de maintenir la paix",
-    "id": "tuer-un-traitre",
+    "name": "Recuperer le nombre d habittant",
+    "description": "\tEn tant que chef du village\n\tJe veux pouvoir ajouter un demon slayer\n\tAfin de voir ma population grandir",
+    "id": "recuperer-le-nombre-d-habittant",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/dojo/TuerTraitre.feature",
+    "uri": "file:src/test/resources/dojo/Fusion.feature",
     "tags": [
       {
         "name": "@tag",

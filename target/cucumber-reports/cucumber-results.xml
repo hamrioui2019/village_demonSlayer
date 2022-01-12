@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.029">
-    <testcase classname="Recuperer le village du demon slayer sedentaire" name="recuperer le village" time="0.009">
-        <system-out><![CDATA[Given un demon slayer sedentaire "toto".....................................passed
-When recuperer le nom du village du demon slayer sedentaire.................passed
-Then le "konoha" est celui qui lui est attribue.............................passed
-]]></system-out>
-    </testcase>
-</testsuite>
-..passed
-]]></system-out>
-    </testcase>
-</testsuite>
-uer un traitre" name="Tuer un traitre 2" time="0.037">
-        <system-out><![CDATA[Given un village "Suna".....................................................passed
-When le village a 1500 habitants............................................passed
-And un traitre est tue......................................................passed
-Then le 1499 est enregistre.................................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.486">
+    <testcase classname="Recuperer le nombre d habittant" name="Accueillir un demon slayer" time="0.142">
+        <system-out><![CDATA[Given le village "Konoha"...................................................passed
+When ajouter un demon slayer................................................passed
+Then le 5001 est enregistre.................................................passed
 ]]></system-out>
     </testcase>
 </testsuite>

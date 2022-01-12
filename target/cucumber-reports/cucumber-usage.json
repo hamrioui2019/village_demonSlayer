@@ -1,83 +1,35 @@
 [
   {
-    "source": "un demon slayer sedentaire {string}",
+    "source": "le village {string}",
     "steps": [
       {
-        "name": "un demon slayer sedentaire \"toto\"",
+        "name": "le village \"Konoha\"",
         "aggregatedDurations": {
-          "median": 9.944E-4,
-          "average": 9.944E-4
+          "median": 0.0059851,
+          "average": 0.0059851
         },
         "durations": [
           {
-            "duration": 9.944E-4,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/DemonVillage.feature:9"
+            "duration": 0.0059851,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/Fusion.feature:9"
           }
         ]
       }
     ]
   },
   {
-    "source": "recuperer le nom du village du demon slayer sedentaire",
+    "source": "ajouter un demon slayer",
     "steps": [
       {
-        "name": "recuperer le nom du village du demon slayer sedentaire",
+        "name": "ajouter un demon slayer",
         "aggregatedDurations": {
-          "median": 9.913E-4,
-          "average": 9.913E-4
-        },
-        "durations": [
-          {
-            "duration": 9.913E-4,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/DemonVillage.feature:10"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "le {string} est celui qui lui est attribue",
-    "steps": [
-      {
-        "name": "le \"konoha\" est celui qui lui est attribue",
-        "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
-        },
-        "durations": [
-          {
-            "duration": 0.0,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/DemonVillage.feature:11"
-          }
-        ]
-      }
-    ]
-  }
-]  "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
-        },
-        "durations": [
-          {
-            "duration": 0.0,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/ConstruireMaison.feature:12"
-          }
-        ]
-      }
-    ]
-  }
-]gatedDurations": {
-          "median": 0.00149575,
-          "average": 0.00149575
+          "median": 0.0019955,
+          "average": 0.0019955
         },
         "durations": [
           {
             "duration": 0.0019955,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/TuerTraitre.feature:11"
-          },
-          {
-            "duration": 9.96E-4,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/TuerTraitre.feature:11"
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/Fusion.feature:10"
           }
         ]
       }
@@ -87,28 +39,15 @@
     "source": "le {int} est enregistre",
     "steps": [
       {
-        "name": "le 9999 est enregistre",
+        "name": "le 5001 est enregistre",
         "aggregatedDurations": {
-          "median": 0.0010007,
-          "average": 0.0010007
+          "median": 0.0019937,
+          "average": 0.0019937
         },
         "durations": [
           {
-            "duration": 0.0010007,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/TuerTraitre.feature:12"
-          }
-        ]
-      },
-      {
-        "name": "le 1499 est enregistre",
-        "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
-        },
-        "durations": [
-          {
-            "duration": 0.0,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/TuerTraitre.feature:12"
+            "duration": 0.0019937,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/Fusion.feature:11"
           }
         ]
       }

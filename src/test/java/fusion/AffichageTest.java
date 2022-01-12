@@ -68,3 +68,4 @@ public class AffichageTest {
 				konoha.afficher());
 	}
 }
+

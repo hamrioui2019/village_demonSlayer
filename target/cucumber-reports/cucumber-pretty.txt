@@ -1,11 +1,6 @@
 
 @tag
-Scenario Outline: recuperer le village                        # src/test/resources/dojo/DemonVillage.feature:15
-  Given un demon slayer sedentaire "toto"                     # fusion.DemonVillageSteps.un_demon_slayer_sedentaire(java.lang.String)
-  When recuperer le nom du village du demon slayer sedentaire # fusion.DemonVillageSteps.recuperer_le_nom_du_village_du_demon_slayer_sedentaire()
-  Then le "konoha" est celui qui lui est attribue             # fusion.DemonVillageSteps.le_est_celui_qui_lui_est_attribue(java.lang.String)
-/resources/dojo/TuerTraitre.feature:17
-  Given un village "Suna"          # villageTest.TuerTraitreSteps.un_village(java.lang.String)
-  When le village a 1500 habitants # villageTest.TuerTraitreSteps.le_village_a_habitants(java.lang.Integer)
-  And un traitre est tue           # villageTest.TuerTraitreSteps.un_traitre_est_tue()
-  Then le 1499 est enregistre      # villageTest.TuerTraitreSteps.le_est_enregistre(java.lang.Integer)
+Scenario Outline: Accueillir un demon slayer # src/test/resources/dojo/Fusion.feature:15
+  Given le village "Konoha"                  # fusion.FusionSteps.le_village(java.lang.String)
+  When ajouter un demon slayer               # fusion.FusionSteps.ajouter_un_demon_slayer()
+  Then le 5001 est enregistre                # fusion.FusionSteps.le_est_enregistre(java.lang.Integer)
