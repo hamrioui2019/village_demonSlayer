@@ -7,15 +7,19 @@ import static org.junit.Assert.assertEquals;
 
 import damonSlayer.DemonSlayerSedentaire;
 import io.cucumber.java.en.*;
+import main.Affichage;
+import main.AffichageVillage;
 import main.Village;
 
 public class AfficherNomDemonSedentaireSteps extends TestRunnerAfficherNom {
 	private DemonSlayerSedentaire toto;
 	private Village konoha;
+	private Affichage affichage;
 
 	@Given("un demon slayer sedentaire")
 	public void un_demon_slayer_sedentaire() {
-		konoha = new Village();
+		affichage = new AffichageVillage();
+		konoha = new Village(affichage);
 		konoha.setNomVillage("konoha");
 		toto = new DemonSlayerSedentaire(konoha, "toto", 11, "eau");
 	}

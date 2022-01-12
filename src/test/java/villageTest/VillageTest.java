@@ -8,10 +8,13 @@ import org.junit.Test;
 
 import java.util.List;
 
+import main.Affichage;
+import main.AffichageVillage;
 import main.Village;
 
 public class VillageTest {
 	private Village konoha, suna, oto;
+	private Affichage affichageVillage;
 
 //    /**
 //     * Constructeur de la classe-test VillageTest
@@ -28,17 +31,19 @@ public class VillageTest {
 	@Before
 	public void setUp() // throws java.lang.Exception
 	{
-		konoha = new Village();
+		affichageVillage = new AffichageVillage();
+
+		konoha = new Village(affichageVillage);
 		konoha.setNbrHabitant(5000);
 		konoha.setNbrMaison(2000);
 		konoha.setNomVillage("konoha");
 
-		oto = new Village();
+		oto = new Village(affichageVillage);
 		oto.setNbrHabitant(200);
 		oto.setNbrMaison(100);
 		oto.setNomVillage("oto");
 
-		suna = new Village();
+		suna = new Village(affichageVillage);
 		suna.setNbrHabitant(1000);
 		suna.setNbrMaison(700);
 		suna.setNomVillage("suna");

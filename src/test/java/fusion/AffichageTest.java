@@ -6,6 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import damonSlayer.DemonSlayerSedentaire;
+import main.Affichage;
 import main.AffichageDemonSlayerSedentaire;
 import main.AffichageNinja;
 import main.AffichageVillage;
@@ -21,16 +22,16 @@ public class AffichageTest {
 	private Village konoha;
 	private AffichageDemonSlayerSedentaire affichageDemon;
 	private AffichageNinja affichageNinja;
-	private AffichageVillage affichageVillage;
+	private Affichage affichage;
 
 	@Before
 	public void setUp() // throws java.lang.Exception
 	{
 		affichageDemon = new AffichageDemonSlayerSedentaire();
 		affichageNinja = new AffichageNinja();
-		affichageVillage = new AffichageVillage();
+		affichage = new AffichageVillage();
 
-		konoha = new Village();
+		konoha = new Village(affichage);
 		konoha.setNbrHabitant(5000);
 		konoha.setNbrMaison(2000);
 		konoha.setNomVillage("konoha");
@@ -64,6 +65,6 @@ public class AffichageTest {
 	public void testAffichageVillage() {
 		assertEquals(
 				"Il y a 5004 habitants dans ce village, dont : \n2 ninjas qui sont : \nNom : naruto\nNom : sasuke\n et 2 demon slayers qui sont : \nNom : toto | Type de souffle : eau\nNom : tata | Type de souffle : feu\n",
-				affichageVillage.afficher(konoha));
+				konoha.afficher());
 	}
 }

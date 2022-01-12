@@ -5,6 +5,8 @@ import org.junit.Before;
 import org.junit.Test;
 
 import damonSlayer.DemonSlayerSedentaire;
+import main.Affichage;
+import main.AffichageVillage;
 import main.Village;
 
 import static org.junit.Assert.*;
@@ -13,6 +15,8 @@ public class DemonSlayerSedentaireTest {
 	private DemonSlayerSedentaire toto;
 	private Village konoha;
 	private Village oto;
+	private Affichage affichage;
+
 
 	public DemonSlayerSedentaireTest() {
 	}
@@ -20,8 +24,9 @@ public class DemonSlayerSedentaireTest {
 	@Before
 	public void setUp() // throws java.lang.Exception
 	{
-		konoha = new Village();
-		oto = new Village();
+		affichage = new AffichageVillage();
+		konoha = new Village(affichage);
+		oto = new Village(affichage);
 		toto = new DemonSlayerSedentaire(konoha, "toto", 11, "eau");
 	}
 

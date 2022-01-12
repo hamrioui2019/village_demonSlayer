@@ -1,71 +1,114 @@
 [
   {
-    "source": "un demon slayer {string}",
+    "source": "un demon slayer sedentaire {string}",
     "steps": [
       {
-        "name": "un demon slayer \"toto\"",
+        "name": "un demon slayer sedentaire \"toto\"",
         "aggregatedDurations": {
-          "median": 0.0079789,
-          "average": 0.0079789
+          "median": 9.944E-4,
+          "average": 9.944E-4
         },
         "durations": [
           {
-            "duration": 0.0079789,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/NiveauPuissance.feature:9"
+            "duration": 9.944E-4,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/DemonVillage.feature:9"
           }
         ]
       }
     ]
   },
   {
-    "source": "avec un grade {string}",
+    "source": "recuperer le nom du village du demon slayer sedentaire",
     "steps": [
       {
-        "name": "avec un grade \"chef\"",
+        "name": "recuperer le nom du village du demon slayer sedentaire",
         "aggregatedDurations": {
-          "median": 0.0019958,
-          "average": 0.0019958
+          "median": 9.913E-4,
+          "average": 9.913E-4
         },
         "durations": [
           {
-            "duration": 0.0019958,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/NiveauPuissance.feature:10"
+            "duration": 9.913E-4,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/DemonVillage.feature:10"
           }
         ]
       }
     ]
   },
   {
-    "source": "je recupere mon niveau de puissance",
+    "source": "le {string} est celui qui lui est attribue",
     "steps": [
       {
-        "name": "je recupere mon niveau de puissance",
+        "name": "le \"konoha\" est celui qui lui est attribue",
         "aggregatedDurations": {
-          "median": 0.0099723,
-          "average": 0.0099723
+          "median": 0.0,
+          "average": 0.0
         },
         "durations": [
           {
-            "duration": 0.0099723,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/NiveauPuissance.feature:11"
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/DemonVillage.feature:11"
+          }
+        ]
+      }
+    ]
+  }
+]  "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/ConstruireMaison.feature:12"
+          }
+        ]
+      }
+    ]
+  }
+]gatedDurations": {
+          "median": 0.00149575,
+          "average": 0.00149575
+        },
+        "durations": [
+          {
+            "duration": 0.0019955,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/TuerTraitre.feature:11"
+          },
+          {
+            "duration": 9.96E-4,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/TuerTraitre.feature:11"
           }
         ]
       }
     ]
   },
   {
-    "source": "Le niveau de puissance {int} est affecte",
+    "source": "le {int} est enregistre",
     "steps": [
       {
-        "name": "Le niveau de puissance 5 est affecte",
+        "name": "le 9999 est enregistre",
         "aggregatedDurations": {
-          "median": 0.0059836,
-          "average": 0.0059836
+          "median": 0.0010007,
+          "average": 0.0010007
         },
         "durations": [
           {
-            "duration": 0.0059836,
-            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/NiveauPuissance.feature:12"
+            "duration": 0.0010007,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/TuerTraitre.feature:12"
+          }
+        ]
+      },
+      {
+        "name": "le 1499 est enregistre",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/user/eclipse-workspace/projet-maven/src/test/resources/dojo/TuerTraitre.feature:12"
           }
         ]
       }

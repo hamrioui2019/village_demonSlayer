@@ -4,16 +4,20 @@ import static org.junit.Assert.*;
 
 import damonSlayer.DemonSlayerSedentaire;
 import io.cucumber.java.en.*;
+import main.Affichage;
+import main.AffichageVillage;
 import main.Village;
 import testRunners.TestRunnerFusion;
 
 public class FusionSteps extends TestRunnerFusion {
 	private DemonSlayerSedentaire toto;
 	private Village konoha;
+	private Affichage affichage;
 
 	@Given("le village {string}")
 	public void le_village(String string) {
-		konoha = new Village();
+		affichage = new AffichageVillage();
+		konoha = new Village(affichage);
 		konoha.setNbrHabitant(5000);
 		konoha.setNbrMaison(2000);
 		konoha.setNomVillage(string);

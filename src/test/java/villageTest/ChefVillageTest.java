@@ -5,24 +5,28 @@ import static org.junit.Assert.*;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+
+import main.Affichage;
+import main.AffichageVillage;
 import main.ChefVillage;
 import main.Village;
 
 public class ChefVillageTest {
 	private Village suna, oto;
 	private ChefVillage kazekage;
+	private Affichage affichage;
 
 	@Before
 	public void setUp() // throws java.lang.Exception
 	{
-
-		suna = new Village();
+		affichage= new AffichageVillage();
+		suna = new Village(affichage);
 		suna.setNbrHabitant(5000);
 		suna.setNbrMaison(2000);
 		suna.setNomVillage("suna");
 		kazekage = new ChefVillage("kazekage", suna);
 
-		oto = new Village();
+		oto = new Village(affichage);
 		oto.setNbrHabitant(200);
 	}
 
@@ -53,7 +57,6 @@ public class ChefVillageTest {
 	public void testAttaquerVillage() {
 		suna.declarerGuerre(oto);
 		kazekage.attaquerVillage(oto);
-		System.out.println(kazekage.getListVillageConquis());
 		assertTrue(kazekage.getListVillageConquis().contains(oto));
 
 	}

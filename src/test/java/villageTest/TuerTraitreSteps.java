@@ -1,6 +1,8 @@
 package villageTest;
 
 import io.cucumber.java.en.*;
+import main.Affichage;
+import main.AffichageVillage;
 import main.ChefVillage;
 import main.Village;
 import testRunners.TestRunnerTuerTraitre;
@@ -10,10 +12,13 @@ public class TuerTraitreSteps extends TestRunnerTuerTraitre {
 
 	private Village village;
 	private ChefVillage chef;
+	private Affichage affichage;
 
 	@Given("un village {string}")
 	public void un_village(String string) {
-		this.village = new Village();
+
+		affichage = new AffichageVillage();
+		this.village = new Village(affichage);
 		this.village.setNomVillage(string);
 	}
 
